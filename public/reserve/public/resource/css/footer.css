@@ -1,0 +1,99 @@
+/* footer 커스텀 */
+#footer {
+    border-top:1px solid #976d3f;
+    background: #222222;
+}
+#footer > .footer-section > .footer-menu-box-1 > ul > li > a {
+    padding: 20px 0;
+    opacity: .7;
+    transition: opacity .3s;
+}
+#footer > .footer-section > .footer-menu-box-1 > ul > li:hover > a {
+    opacity: 1;
+}
+#footer > .footer-section > .footer-menu-box-1 > ul > li > a > span {
+    position: relative;
+}
+#footer > .footer-section > .footer-menu-box-1 > ul > li > a > span::after {
+    content: "";
+    position: absolute;
+    bottom:0;
+    left:0;
+    width: 0;
+    height: 1px;
+    background: #bbb;
+    transition: width .3s;
+}
+#footer > .footer-section > .footer-menu-box-1 > ul > li:hover > a > span::after {
+    width: 100%;
+}
+#footer > .footer-section > .footer-menu-box-1 > ul > li:first-child > a > span::after {
+    background: #976d3f
+}
+#footer > .footer-section > div > .footer-menu-box-2 > ul > li > a {
+    padding: 10px 0;
+    margin:0 10px;
+    opacity: .7;
+    transition: opacity .3s;
+}
+#footer > .footer-section > div > .footer-menu-box-2 > ul > li:hover > a {
+    opacity: 1;
+}
+#footer > .footer-section > div > .footer-menu-box-2 > ul > li > a > span {
+    position: relative;
+}
+#footer > .footer-section > div > .footer-menu-box-2 > ul > li > a > span::after {
+    content: "";
+    position: absolute;
+    bottom:0;
+    left:0;
+    width: 0;
+    height: 1px;
+    background: #bbb;
+    transition: width .3s;
+}
+#footer > .footer-section > div > .footer-menu-box-2 > ul > li:hover > a > span::after {
+    width: 100%;
+}
+
+#footer > .footer-section > .footer-logo > .starbucks-logo {
+    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/footer-logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:100px;
+    height:100px;
+    position: absolute;
+    right: 0;
+    bottom:0%;
+}
+
+#footer > .footer-section > .bottom-text > p > span {
+    margin: 0 5px;
+}
+/* mobile-view 커스텀 */
+#mobile-footer > .footer-section::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background: #976d3f;
+    top:0;
+    left:0;
+}
+#mobile-footer >  .footer-section > .footer-menu-box-1 > ul > li {
+    width: 100%;
+    margin: 8px 0;
+}
+#mobile-footer >  .footer-section > div > .footer-menu-box-2 > ul > li {
+    border-bottom:1px solid #976d3f;
+    
+}
+#mobile-footer >  .footer-section > div > .footer-menu-box-2 > ul > li > a {
+    padding: 5px;
+}
+#mobile-footer >  .footer-section > .bottom-text {
+    font-size: 11px;
+}
+#mobile-footer >  .footer-section > .bottom-text > .buisnessman > span {
+    margin: 8px 0;
+}

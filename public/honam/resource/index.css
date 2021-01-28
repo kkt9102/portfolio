@@ -1,0 +1,257 @@
+/* 폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+/* 노말라이즈 */
+body, ul , li {
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+a {
+    color:inherit;
+    text-decoration:none;
+}
+
+
+
+/* 라이브러리 */
+.height-60p {
+    height:60px;
+}
+
+.font-size-20 {
+    font-size:20px;
+}
+.font-weight-700 {
+    font-weight: 700;
+}
+.text-align-center {
+    text-align: center;
+}
+.img-box {
+    display: block;
+    width: 100%;
+}
+.flex {
+    display:flex;
+}
+.flex-jc-c {
+    justify-content:center;
+}
+.flex-jc-sb {
+    justify-content:space-between;
+}
+.flex-jc-e {
+    justify-content: flex-end;
+}
+.flex-ai-c {
+    align-items:center;
+}
+
+* > .flex-1-0-0 {
+    flex:1 0 0;
+  }
+.relative {
+    position:relative;
+}
+.block {
+    display:block;
+}
+.con {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* 커스텀 */
+.con {
+    width:1400px;
+}
+.page-title {
+    font-size:30px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 0;
+    position: relative;
+}
+.page-title::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 5px;
+    background-color: #dc282c;
+    top:0;
+    left:0;
+}
+.tr {
+    width: 100%;
+    height: 5px;
+    background-color: #aaa;
+}
+/* login-signin-box 커스텀 */
+
+.login-signin-box > ul > li  {
+    background: #1562A5;
+    color: #fff;
+}
+.login-signin-box > ul > li:first-child {
+    border-right:1px solid #aaa;
+}
+.login-signin-box > ul > li > a {
+    padding: 5px 10px;
+}
+/* logo 커스텀 */
+
+.logo > a {
+    background-image: url(https://kkt9102.github.io/img2/honam/logo_n.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:calc(252px * 0.3);
+    width:calc(818px * 0.3);
+    display:inline-block;
+    margin-bottom: 20px;
+}
+
+/* top-bar 커스텀 */
+.top-bar {
+    background: #1562A5;
+    color: #fff;
+}
+.menu-box-1 {
+    cursor:pointer;
+}
+.menu-box-1 > ul > li {
+    position:relative;
+    text-align:center;
+}
+.menu-box-1 > ul > li > a {
+    padding:10px 0;
+}
+.menu-box-1 ul ul {
+    overflow:hidden;
+    position:absolute;
+    top:100%;
+    width:100%;
+    height:0;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    white-space:nowrap;
+    transition:height .3s;
+    background: #fff;
+    z-index: 5;
+}
+.menu-box-1 ul:hover ul {
+    height:235px;
+    border-bottom:1px solid #aaaaaa;
+    border-left:1px solid #aaaaaa;
+    border-right:1px solid #aaaaaa;
+}
+
+.menu-box-1 ul ul > li > a {
+    padding:10px 0;
+}
+
+.menu-box-1 ul ul > li:hover > a {
+    background: #1562A5;
+    color: #fff;
+}
+/* main-banner 커스텀 */
+.main-banner {
+    margin-top: 40px;
+}
+.main-banner > .img {
+    background-image: url(https://kkt9102.github.io/img2/honam/main-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+}
+
+
+/* tap-menu 커스텀 */
+.tap-menu {
+    margin-top: 40px;
+}
+.tap-menu > .tap-menu-box {
+    width: calc(60% - 20px);
+}
+.tap-menu > .tap-menu-box > .tap-contact-box {
+    width: 100%;
+    border:1px solid #aaa;
+}
+.tap-menu > .tap-menu-box > .tap-contact-box > nav {
+    display: none;
+}
+.tap-menu > .tap-menu-box > .tap-contact-box > nav.active {
+    display: block;
+}
+.tap-menu > .contents-box {
+    width: calc(40% - 20px);
+    border:1px solid #aaa;
+    
+}
+.tap-menu > .tap-menu-box > .box-btn > ul > li {
+    border:1px solid #aaa;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+}
+.tap-menu > .tap-menu-box > .box-btn > ul > li.active {
+    background: #1562A5;
+    border:1px solid #1562A5;
+    color: #fff;
+}
+
+/* event-photo-gallery 커스텀 */
+.event-photo-gallery {
+    margin-top: 40px;
+}
+.event-photo-gallery > .event-photo-gallery-box > .title {
+    color: #fff;
+    background: #1562A5;
+    width: 120px;
+    height: 40px;
+}
+.event-photo-gallery > .event-photo-gallery-box > nav {
+    border:1px solid #aaa;
+}
+
+
+/* support-group-logo 커스텀 */
+.support-group-logo {
+    margin-top: 40px;
+}
+.support-group-logo > .support-group-logo-box > .title {
+    color: #fff;
+    background: #1562A5;
+    width: 120px;
+    height: 40px;
+}
+
+.support-group-logo > .support-group-logo-box > .support-logo {
+    border:1px solid #aaa;
+}
+.support-group-logo > .support-group-logo-box > .support-logo > div > a {
+    width: 200px;
+    height: 60px;
+}
+.support-group-logo > .support-group-logo-box > .support-logo img {
+    width: 200px;
+}
+/* bottom-site-map 커스텀 */
+.bottom-site-map {
+    margin-top: 40px;
+    background-color: #666;
+    color: #fff;
+}
+.bottom-site-map > .text-box > .address {
+    padding-top: 25px;
+}
+.bottom-site-map > .text-box > .group-title {
+    margin-top: 10px;
+    padding-bottom: 35px;
+}

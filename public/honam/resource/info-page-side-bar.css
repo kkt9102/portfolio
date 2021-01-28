@@ -1,0 +1,31 @@
+.left-menu-bar {
+    width:calc(100%/5);
+}
+.left-menu-box {
+    border-left:1px solid #aaa;
+    border-right:1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+}
+
+.left-menu-box > ul > li:not(:first-child) {
+    border-top:1px solid #aaa;
+}
+.left-menu-box > ul > li > a {
+    padding: 15px;
+}
+.left-menu-box > ul > li.active > a {
+    background: #1562A5;
+    color: #fff;
+    border-left:1px solid #1562A5;
+    border-right:1px solid #1562A5;
+}
+
+.left-menu-bar > .this-page-title {
+    color: #fff;
+    font-size:2.7rem;
+    background: url(https://kkt9102.github.io/img2/honam/menu-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:200px;
+    word-break: keep-all;
+}
