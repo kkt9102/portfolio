@@ -1,0 +1,39 @@
+.tablet-view {display:none;}
+.mobile-view {display: none;}
+@media all and (max-width:1024px) {
+	#body {padding-top:80px;}
+	.pc-view {display:none;}
+	.tablet-view {display:block;}
+}
+
+@media all and (max-width:780px) {
+
+}
+
+@media all and (max-width:720px) {
+
+}
+
+@media all and (max-width:600px) {
+
+}
+
+@media all and (max-width:550px) {
+
+}
+
+@media all and (max-width:500px) {
+
+}
+
+@media all and (max-width:450px) {
+
+}
+
+@media all and (max-width:360px) {
+
+}
+
+@media all and (max-width:320px) {
+    
+}
