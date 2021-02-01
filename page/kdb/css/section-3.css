@@ -1,0 +1,337 @@
+.section-3 {
+    padding-top: 60px;
+}
+.section-3 > .title {
+    margin-top: 95px;
+    margin-bottom: 45px;
+}
+.section-3 > .special-top-memu > ul {
+    padding: 10px;
+}
+.section-3 > .special-top-memu > ul > li > a {
+    margin-right:40px;
+}
+.section-3 > .special-top-memu > ul > li > a::after {
+    content: url(https://kkt9102.github.io/img1/blog/article/portfolio/kdb/bg_special_box_arr.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: contain;
+    position: absolute;
+    width: 20px;
+    height: 40px;
+    top:50%;
+    left:50%;
+    transform: translate(-50% ,-50%);
+}
+.section-3 > .special-top-memu > ul > li > a > .text-box > .title {
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 35px;
+}
+.section-3 > .special-top-memu > ul > li > a > .text-box > .sub-title-1 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.section-3 > .special-top-memu > ul > li:last-child > a > .text-box > .sub-title-1 {
+    margin-top: 65px;
+}
+.section-3 > .special-top-memu > ul > li > a > .text-box > .sub-title-2 {
+    font-weight: 300;
+    margin-top: 10px;
+}
+.section-3 > .special-top-memu > ul > li:first-child > a > .img-box {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/kdb/special-top-1.png) no-repeat 0 0;
+    background-size: cover;
+    width: 273px;
+    height: 223px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.section-3 > .special-top-memu > ul > li:first-child > a > .text-box {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/kdb/bg_special_box.png) no-repeat 0 0;
+    background-size: cover;
+    width: 273px;
+    height: 223px;
+}
+.section-3 > .special-top-memu > ul > li:last-child > a > .img-box {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/kdb/special-top-2.jpg) no-repeat 0 0;
+    background-size: cover;
+    width: 273px;
+    height: 223px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.section-3 > .special-top-memu > ul > li:last-child > a > .text-box {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/kdb/bg_special_box.png) no-repeat 0 0;
+    background-size: cover;
+    width: 273px;
+    height: 223px;
+}
+
+
+/* special-slide 커스텀 */
+.section-3 > .special-slide-menu {
+    margin-top: 10px;
+}
+.section-3 > .special-slide-menu > .slider {
+    overflow: hidden;
+}
+.section-3 > .special-slide-menu > .slider > ul {
+    width: calc(586px * 5);
+    height: 223px;
+    padding: 10px;
+    transition:margin-left .3s ;
+    margin-left: 0px;
+}
+.section-3 > .special-slide-menu > .slider > ul > li > a > .img-box,
+.section-3 > .special-slide-menu > .slider > ul > li > a > .text-box {
+    background-size: cover;
+    width: 273px;
+    height: 223px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.section-3 > .special-slide-menu > .slider > ul > li > a {
+    margin-right:40px;
+}
+.section-3 > .special-slide-menu > .slider > ul > li > a > .text-box > .title {
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 35px;
+}
+.section-3 > .special-slide-menu > .slider > ul > li > a > .text-box > .sub-title-1 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;   
+}
+.section-3 > .special-slide-menu > .slider > ul > li:nth-child(2n + 3) > a > .text-box > .sub-title-1 {
+    margin-top: 35px;
+}
+.section-3 > .special-slide-menu > .slider > ul > li:nth-child(3) > a > .text-box > * {
+    padding-left: 30px;
+}
+.section-3 > .special-slide-menu > .slider > ul > li > a > .text-box > .sub-title-2 {
+    font-weight: 300;
+    margin-top: 10px;
+}
+.section-3 > .special-slide-menu > .slider > ul > li:not(:nth-child(3)) > a::after {
+    content: url(https://kkt9102.github.io/img1/blog/article/portfolio/kdb/bg_special_box_arr.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: contain;
+    position: absolute;
+    width: 20px;
+    height: 40px;
+    top:50%;
+    left:50%;
+    transform: translate(-50% ,-50%);
+}
+
+.section-3 > .special-slide-menu > .slider > ul > li:not(:nth-child(3)) > a > .text-box {
+    width: 273px;
+    height: 223px;
+    background: #fff;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.section-3 > .special-slide-menu > .slider> ul > .item-1 > a > .img-box {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/kdb/special-slie-1.png) no-repeat 0 0;
+}
+.section-3 > .special-slide-menu > .slider> ul > .item-2 > a > .img-box {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/kdb/special-slie-2.jpg) no-repeat 0 0;
+}
+.section-3 > .special-slide-menu > .slider> ul > .item-3 > a > .img-box {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/kdb/special-slie-3.png) no-repeat 0 0;
+}
+.section-3 > .special-slide-menu > .slider> ul > .item-4 > a > .img-box {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/kdb/special-slie-4.jpg) no-repeat 0 0;
+}
+.section-3 > .special-slide-menu > .slider> ul > .item-5 > a > .img-box {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/kdb/special-slie-5.jpg) no-repeat 0 0;
+}
+.section-3 > .special-slide-menu > .slider > .slide-btn {
+    width: 100%;
+    height: 60px;
+}
+.section-3 > .special-slide-menu >  .slider > .slide-btn > .left-btn,
+.section-3 > .special-slide-menu >  .slider > .slide-btn > .right-btn {
+    position: absolute;
+    top:50%;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.3);
+    box-shadow:3px 3px 15px 0 rgba(0,0,0,.2);
+}
+.section-3 > .special-slide-menu >  .slider > .slide-btn > .left-btn {
+    left:0;
+    transform: translateX(-33%) translateY(-100%);
+}
+.section-3 > .special-slide-menu >  .slider > .slide-btn > .right-btn {
+    right:0;
+    transform: translateX(33%) translateY(-100%);
+}
+.section-3 > .special-slide-menu >  .slider > .slide-btn > .left-btn > .img{
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/kdb/btn_arrow_bbsslide.png) no-repeat 0 -3px;
+    position: absolute;
+    transform: translate(-50% , -50%);
+    top:50%;
+    left:50%;
+    width: 14px;
+    height: 24px;
+    background-size: cover;
+}
+.section-3 > .special-slide-menu >  .slider > .slide-btn > .right-btn > .img{
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/kdb/btn_arrow_bbsslide.png) no-repeat 0 -33px;
+    position: absolute;
+    transform: translate(-50% , -50%);
+    top:50%;
+    left:50%;
+    width: 14px;
+    height: 24px;
+    background-size: cover;
+}
+/* icon-slide 커스텀 */
+.section-3 > .icon-slide {
+    width: 1130px;
+    background:rgba(255,255,255,0.5);
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-3 > .icon-slide >  .slider {
+    width: calc(254px * 4);
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+.section-3 > .icon-slide >  .slider > ul {
+    width: calc(254px*8);
+    transition: margin-left .3s;
+}
+.section-3 > .icon-slide >  .slider > ul > li {
+    width: 254px;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: -0.3px;
+}
+.section-3 > .icon-slide >  .slider > ul > li:not(:first-child) {
+    border-left:1px solid #ccc;
+}
+.section-3 > .icon-slide > .slider > ul > li > a {
+    width: 254px;
+
+}
+.section-3 > .icon-slide > .slider > ul > li > a > .item {
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 300;
+}
+.section-3 > .icon-slide > .slider > ul > li > a > .item:hover {
+    color: #0063cc;
+}
+
+.section-3 > .icon-slide > .slider > ul > li > a > .item > .text::after {
+    content: "";
+    position: absolute;
+    bottom:0;
+    left:50%;
+    width: 0;
+    height: 1px;
+    transition: width .3s;
+    background: #0063cc;
+}
+.section-3 > .icon-slide > .slider > ul > li > a > .item > .text::before {
+    content: "";
+    position: absolute;
+    bottom:0;
+    right:50%;
+    width: 0;
+    height: 1px;
+    transition: width .3s;
+    background: #0063cc;
+}
+.section-3 > .icon-slide > .slider > ul > li > a > .item:hover > .text::after {
+    width:50%;
+}
+.section-3 > .icon-slide > .slider > ul > li > a > .item:hover > .text::before {
+    width:50%;
+}
+
+
+.section-3 > .icon-slide > .slider > ul > li > a > .item  > .icon {
+    margin:0 10px;
+}
+#tech-mart > a > .item > .icon {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/kdb/img_common.png) no-repeat -688px -410px;
+    width: 24px;
+    height: 30px;
+}
+#staff-square > a > .item > .icon {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/kdb/img_common.png) no-repeat -808px -410px;
+    width: 24px;
+    height: 28px;
+}
+#corp-finance > a > .item > .icon {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/kdb/img_common.png) no-repeat -716px -410px;
+    width: 28px;
+    height: 28px;
+}
+#inno-policy-center > a > .item > .icon {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/kdb/img_common.png) no-repeat -838px -410px;
+    width: 24px;
+    height: 28px;
+}
+#business-leader > a> .item  > .icon {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/kdb/img_common.png) no-repeat -627px -410px;
+    width: 26px;
+    height: 30px;
+}
+#pb-service > a > .item > .icon {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/kdb/img_common.png) no-repeat -747px -411px;
+    width: 27px;
+    height: 27px;
+}
+#securities > a > .item > .icon {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/kdb/img_common.png) no-repeat -779px -411px;
+    width: 22px;
+    height: 28px;
+}
+#kdb-university > a > .item > .icon {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/kdb/img_common.png) no-repeat -865px -411px;
+    width: 30px;
+    height: 28px;
+}
+#kdb-share > a > .item > .icon {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/kdb/img_common.png) no-repeat -895px -411px;
+    width: 30px;
+    height: 28px;
+}
+#kdb-future > a > .item > .icon {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/kdb/img_common.png) no-repeat -660px -411px;
+    width: 20px;
+    height: 29px;
+}
+.section-3 > .icon-slide >  .slider > .slide-btn > div {
+    cursor: pointer;
+}
+.section-3 > .icon-slide >  .slider > .slide-btn > .left-btn > .img{
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/kdb/btn_arrow_bbsslide.png) no-repeat 0 -3px;
+    position: absolute;
+    transform: translate(-50% , -50%);
+    top:50%;
+    left:20px;
+    width: 14px;
+    height: 24px;
+    background-size: cover;
+}
+.section-3 > .icon-slide  >  .slider > .slide-btn > .right-btn > .img{
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/kdb/btn_arrow_bbsslide.png) no-repeat 0 -33px;
+    position: absolute;
+    transform: translate(-50% , -50%);
+    top:50%;
+    right:20px;
+    width: 14px;
+    height: 24px;
+    background-size: cover;
+}

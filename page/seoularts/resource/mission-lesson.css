@@ -1,0 +1,69 @@
+.mission-lesson-section {
+    margin-bottom: 50px;
+    
+}
+.mission-lesson-section > .missino-section,
+.mission-lesson-section > .lesson-section {
+    font-size: 20px;
+    font-weight: bold;
+}
+.mission-lesson-section > .missino-section > p::after,
+.mission-lesson-section > .lesson-section > p::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    bottom:0;
+    left:0;
+    background-color: #921225;
+}
+.mission-lesson-section > .missino-section > .title {
+    font-size: 30px;
+    background: #eeeeee;
+    border:1px solid #616161;
+
+}
+.mission-lesson-section > .missino-section > h6 {
+    font-size: 20px;
+    padding: 0 100px;
+}
+.educationalgoals-section > .educational-text {
+}
+.educationalgoals-section > .educational-text > ul > .title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #616161;
+
+}
+.educationalgoals-section > .educational-text > ul > .title > .fa-circle {
+    color: #922125;
+    font-size: 15px;
+    margin-right: 10px;
+}
+.educationalgoals-section > .educational-text > ul > li {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+/* talent-core-competencies-section 커스텀 */
+.talent-core-competencies-section > .core-competencies-section {
+    margin: 50px 0 150px 0;
+}
+
+.talent-core-competencies-section > .talent-section > .sub-title,
+.talent-core-competencies-section > .core-competencies-section > .sub-title {
+    font-size:22px;
+    font-weight: bold;
+    position: relative;
+    margin: 20px 0;
+}
+.talent-core-competencies-section > .talent-section > .sub-title::after,
+.talent-core-competencies-section > .core-competencies-section > .sub-title::after {
+    content: "";
+    position: absolute;
+    bottom:0;
+    left:0;
+    width: 20px;
+    height: 2px;
+    background-color: #921225;
+}

@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'KFOlCnqEu92Fr1MmWUlfBBc4AMP6lQ';
+    src: url(KFOlCnqEu92Fr1MmWUlfBBc4AMP6lQ.woff2) format('woff2');
+}
+.fkol {
+    font-family: 'KFOlCnqEu92Fr1MmWUlfBBc4AMP6lQ';
+}
+@font-face {
+    font-family: 'KFOmCnqEu92Fr1Mu4mxKKTU1Kg';
+    src: url(KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2) format('woff2');
+}
+.kfom {
+    font-family: 'KFOmCnqEu92Fr1Mu4mxKKTU1Kg';
+}
+@font-face {
+    font-family: 'phoenix-icons';
+    src: url(phoenix-icons.ttf) format('ttf');
+}
+.phoenix-icon {
+    font-family: 'phoenix-icons';
+}
+
+@font-face {
+    font-family: 'RazerF5Bold';
+    src: url(RazerF5Bold.woff) format('woff');
+}
+.razer-b {
+    font-family: 'RazerF5Bold';
+}
+@font-face {
+    font-family: 'RazerF5Light';
+    src: url(RazerF5Light.woff) format('woff');
+}
+.rzaer-l {
+    font-family: 'RazerF5Light';
+}
+@font-face {
+    font-family: 'RazerF5SemiBold';
+    src: url(RazerF5SemiBold.woff) format('woff');
+}
+.razer-s-b {
+    font-family: 'RazerF5SemiBold';
+}
+/* 폰트적용 */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+html {
+  font-family: "Open Sans", sans-serif;
+}

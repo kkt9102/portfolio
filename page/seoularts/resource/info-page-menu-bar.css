@@ -1,0 +1,62 @@
+/* info-page-menu-bar 커스텀 */
+.info-page-menu-bar {
+    margin-top: 298.359px;
+    left:0;
+    right:0;
+    transition: margin-top .3s;
+    z-index: 4;
+}
+.info-page-menu-bar > nav > ul > li > a {
+    color:#fff;
+    font-weight: bold;
+    background:url(https://kkt9102.github.io/img1/blog/article/portfolio/seoularts_photo/btn-box.png);
+    width: 143px;
+    height: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: background-image .3s;
+}
+.info-page-menu-bar > nav > ul > li.active > a {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/seoularts_photo/btn-box-active.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.info-page-menu-bar > nav > ul > li:hover > a {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/seoularts_photo/btn-box-active.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.info-page-menu-bar > nav > ul > li {
+    position: relative;
+}
+
+.info-page-menu-bar > nav > ul ul > li > a {
+    padding: 3px 0;
+}
+.info-page-menu-bar > nav > ul ul > li:hover > a {
+    color: #922125;
+}
+
+.info-page-menu-bar > nav > ul ul {
+    display: none;
+    position: absolute;
+    top:100%;
+    width: 100%;
+    background-color: #fff;
+    z-index: 4;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.info-page-menu-bar > nav > ul > li.active ul {
+    display: block;
+    border-bottom:1px solid #616161;
+}
+.info-page-menu-bar > nav > ul > li .fa-chevron-down {
+    transition: transform .3s;
+}
+.info-page-menu-bar > nav > ul > li.active .fa-chevron-down {
+    transform:rotate(180deg)
+}
+

@@ -1,0 +1,405 @@
+/* mobile-top-menu-bar 커스텀 */
+
+.mobile-menu-bar {
+    z-index: 1000 !important;
+    transition: all .3s;
+}
+.mobile-menu-bar.active {
+    background: #ffffff;
+    border-bottom:1px solid #efefef;
+}
+.mobile-menu-bar > .mobile-menu-box-1 {
+    padding:19px 2.5%;
+}
+.mobile-menu-bar > .mobile-menu-box-1 > .bars-btn {
+    width: 40px;
+    height: 20px;
+    z-index: 1000 !important;
+}
+.mobile-menu-bar > .mobile-menu-box-1 > .bars-btn > div {
+    width: 32px;
+    height: 4px;
+    margin-left: 4px;
+    background: #ffffff;
+    position: absolute;
+}
+.mobile-menu-bar.active > .mobile-menu-box-1 > .bars-btn > div,
+.mobile-menu-bar > .mobile-menu-box-1 > .bars-btn.active > div
+{
+    background: #000;
+}
+.mobile-menu-bar > .mobile-menu-box-1 > .bars-btn > div:first-child {
+    top:0;
+    transition: top .2s, transform .2s;
+}
+.mobile-menu-bar > .mobile-menu-box-1 > .bars-btn > div:nth-child(2) {
+    top:40%;
+}
+.mobile-menu-bar > .mobile-menu-box-1 > .bars-btn > div:last-child {    
+    top:80%;
+    transition: top .2s, transform .2s;
+}
+.mobile-menu-bar > .mobile-menu-box-1 > .bars-btn.active > div:first-child {
+    top:40%;
+    transform: rotate(45deg);
+    transition: transform .2s;
+}
+.mobile-menu-bar > .mobile-menu-box-1 > .bars-btn.active > div:nth-child(2) {
+    opacity: 0;
+    transition: opacity .2s;
+}
+.mobile-menu-bar > .mobile-menu-box-1 > .bars-btn.active > div:last-child {
+    top:40%;
+    transform: rotate(-45deg);
+    transition: transform .2s;
+}
+
+
+.mobile-menu-bar > .mobile-menu-box-1 > .bars-menu-box {
+    background-color: #fff;
+    left:0;
+    right:0;
+    height: 0;
+    top:0;
+    opacity: 0;
+    visibility: hidden;
+    transition: height .2s , opacity .1s, visibility .1s;
+    overflow: hidden;
+    z-index: 500;
+}
+.mobile-menu-bar > .mobile-menu-box-1 > .bars-menu-box.active {
+    height: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+.mobile-menu-bar > .mobile-menu-box-1 > .bars-menu-box > ul {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mobile-menu-bar > .mobile-menu-box-1 > .bars-menu-box > ul > li > a {
+    font-size:1.4rem;
+    padding: 18px 0;
+    width: 100%;
+    border-bottom: 2px solid #efefef;
+}
+.mobile-menu-bar > .mobile-menu-box-1 > .bars-menu-box > ul > li.active > a {
+    border-bottom: 2px solid #000000;
+}
+.mobile-menu-bar > .mobile-menu-box-1 > .bars-menu-box > ul > li > a > .text {
+    margin-left: 2%;
+}
+.mobile-menu-bar > .mobile-menu-box-1 > .bars-menu-box > ul > li > a > .arrow {
+    border-top:2px solid #adadad;
+    border-left:2px solid #adadad;
+    width: 17px;
+    height: 17px;
+    margin-right: 2.5%;
+    transition: all .2s;
+    transform: rotate(225deg);
+    align-self: flex-end;
+}
+.mobile-menu-bar > .mobile-menu-box-1 > .bars-menu-box > ul > li.active > a > .arrow {
+    transform: rotate(405deg);
+    border-top:2px solid #000000;
+    border-left:2px solid #000000;
+}
+.mobile-menu-bar > .mobile-menu-box-1 > .bars-menu-box > ul > li > ul {
+    margin-top: 5px;
+    margin-left: 1%;
+    overflow: hidden;
+    transition: all .3s;
+}
+.mobile-menu-bar > .mobile-menu-box-1 > .bars-menu-box > ul > li > ul > li > a {
+    font-family: 'notosanskr-regular2';
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 10px;
+    color:#7a7a7a;
+}
+.mobile-menu-bar.active > .mobile-menu-box-1 > .logo,
+.mobile-menu-bar > .mobile-menu-box-1 > .logo.active,
+.mobile-menu-bar.active > .mobile-menu-box-1 > .lang-change,
+.mobile-menu-bar > .mobile-menu-box-1 > .lang-change.active {
+    z-index: 1000 !important;
+}
+
+.mobile-menu-bar > .mobile-menu-box-1 > .logo > a {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/pearlabyss/cm_bi_white.svg) no-repeat 0 0;
+    background-size: 172px auto;
+    height: 20px;
+    width: 172px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all .2s;
+}
+.mobile-menu-bar.active > .mobile-menu-box-1 > .logo > a,
+.mobile-menu-bar > .mobile-menu-box-1 > .logo.active > a {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/pearlabyss/cm_bi_black.svg) no-repeat 0 0;
+    background-size: 172px auto;
+    height: 20px;
+    width: 172px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.mobile-menu-bar > .mobile-menu-box-1 > .lang-change > .lang-icon {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/pearlabyss/m_icn_lang_white.svg)no-repeat 0 0;
+    background-size: contain;
+    width: 29px;
+    height: 29px;
+}
+.mobile-menu-bar.active > .mobile-menu-box-1 > .lang-change > .lang-icon,
+.mobile-menu-bar > .mobile-menu-box-1 > .lang-change.active > .lang-icon {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/pearlabyss/m_icn_lang.svg)no-repeat 0 0;
+    background-size: contain;
+    width: 29px;
+    height: 29px;
+}
+.mobile-menu-bar > .mobile-menu-box-1 > .lang-change > .lang-list {
+    border:1px solid #efefef;
+    background: #ffffff;
+    right:3px;
+    top:55px;
+    padding:15px 0;
+    display: none;
+}
+.mobile-menu-bar > .mobile-menu-box-1 > .lang-change> .lang-list.active  {
+    display: block;
+}
+
+.mobile-menu-bar > .mobile-menu-box-1 > .lang-change > .lang-list > li > a {
+    color:#969696;
+    font-size:1.3rem;
+    font-weight: 700;
+    padding: 13px 20px;
+}
+.mobile-menu-bar > .mobile-menu-box-1 > .lang-change > .lang-list > li.active > a {
+    color: #000000;
+}
+/* tablet-banner-section 커스텀 */
+.tablet-banner-section {
+    margin-top: 130px;
+}
+.tablet-banner-section > nav > ul {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/pearlabyss/t_spr_main_category_bg.jpg) no-repeat 0 0;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.tablet-banner-section > nav > ul > .up {
+    width: calc(100%/2);
+    height: 41.4vw;
+}
+.tablet-banner-section > nav > ul > .down {
+    width: calc(100%/3);
+    height: 41.4vw;
+}
+.tablet-banner-section > nav > ul > li > a {
+    width: 100%;
+    height: 100%;
+}
+.tablet-banner-section > nav > ul > li > a > .menu-info > .text-box {
+    width: 100%;
+}
+.tablet-banner-section > nav > ul > li > a > .menu-info > .text-box > *{
+    left:50%;
+    transform: translateX(-50%);
+    color:#ffffff;
+    white-space: nowrap;
+}
+.tablet-banner-section > nav > ul > li > a > .menu-info > .text-box > .title {
+    font-size: 26px;
+    margin-top:30%
+}
+.tablet-banner-section > nav > ul > li > a > .menu-info > .text-box > .sub-title {
+    font-size: 20px;
+    margin-top:40%;
+}
+.tablet-banner-section > nav > ul > .down > a > .menu-info > .text-box > .title {
+    margin-top:50%
+}
+.tablet-banner-section > nav > ul > .down > a > .menu-info > .text-box > .sub-title {
+    margin-top:65%;
+}
+/* mobile-banner-section 커스텀 */
+.mobile-banner-section {
+    margin-top: 130px;
+    height: 185vw;
+}
+.mobile-banner-section > nav {
+    height: 185vw;
+}
+.mobile-banner-section > nav > ul {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/pearlabyss/m_spr_main_category_bg.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+.mobile-banner-section > nav > ul > li {
+    height: calc(187vw/5);
+}
+.mobile-banner-section > nav > ul > li > a {
+    width: 100%;
+    height: 100%;
+}
+.mobile-banner-section > nav > ul > li > a > .text-box {
+    width: 100%;
+    height: 100%;
+    color:#ffffff;
+}
+.mobile-banner-section > nav > ul > li > a > .text-box > * {
+    left:50%;
+    transform: translateX(-50%);
+}
+.mobile-banner-section > nav > ul > li > a > .text-box > .title {
+    top:30%;
+    font-size: 28px;
+    font-weight: 900;
+}
+.mobile-banner-section > nav > ul > li > a > .text-box > .sub-title {
+    top:55%;
+    font-size: 1.3rem;
+}
+/* .mobile-banner-section > nav > ul > .corp-info {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/pearlabyss/m_spr_main_category_bg.jpg) no-repeat 0 0;
+    background-size: cover;
+    height: 37vw;
+    width: 100vw;
+}
+.mobile-banner-section > nav > ul > .lab {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/pearlabyss/m_spr_main_category_bg.jpg) no-repeat 0 -37vw;
+    background-size: cover;
+    height: 37vw;
+    width: 100vw;
+}
+.mobile-banner-section > nav > ul > .culture {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/pearlabyss/m_spr_main_category_bg.jpg) no-repeat 0 -74vw;
+    background-size: cover;
+    height: 37vw;
+    width: 100vw;
+}
+.mobile-banner-section > nav > ul > .pearlabyss-in {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/pearlabyss/m_spr_main_category_bg.jpg) no-repeat 0 -111vw;
+    background-size: cover;
+    height: 37vw;
+    width: 100vw;
+}
+.mobile-banner-section > nav > ul > .corp-news {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/pearlabyss/m_spr_main_category_bg.jpg) no-repeat 0 -148vw;
+    background-size: cover;
+    height: 37vw;
+    width: 100vw;
+} */
+
+/* mobile-board-menu-section 커스텀 */
+.mobile-board-menu-section {
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.mobile-board-menu-section li > a > .img > img {
+    width: 100%;
+}
+.mobile-board-menu-section li > a > .text-box > .title {
+    color:#6a6a6a;
+    font-size:14px;
+    margin-top: 20px;
+}
+.mobile-board-menu-section li > a > .text-box > .sub-title {
+    color:#1e1e1e;
+    font-size:18px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.mobile-board-menu-section .owl-dots {
+    cursor:default;
+    position: absolute;
+    bottom:-10%;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.mobile-board-menu-section .owl-dots > .owl-dot.active {
+    background: #000;
+}
+/* mobile-footer=-section 커스텀 */
+.mobile-footer-section > .mobile-menu-box-2 {
+    border-top:1px solid #e0e0e0;
+    border-bottom:1px solid #e0e0e0;
+    font-size: 1.09rem;
+    font-weight: bold;
+}
+.mobile-footer-section > .mobile-menu-box-2 > ul {
+    margin: 20px 30px 30px 30px;
+}
+.mobile-footer-section > .mobile-menu-box-2 > ul > li > a {
+    padding: 20px 0;
+}
+.mobile-footer-section > .mobile-menu-box-2 > ul > li > a > .plus-icon {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/pearlabyss/icn_cm_plus.svg) no-repeat 0 0;
+    background-size: contain;
+    width: 22px;
+    height: 22px;
+    transition: all .2s;
+}
+.mobile-footer-section > .mobile-menu-box-2 > ul > .drop-menu.active > a > .plus-icon {
+    transform: rotate(45deg);
+}
+.mobile-footer-section > .mobile-menu-box-2 > ul > .drop-menu > ul {
+    overflow: hidden;
+    transition: all .3s;
+}
+
+.mobile-footer-section > .mobile-menu-box-2 > ul > .drop-menu > ul > li > a {
+    color:#969696;
+    font-weight: 400;
+    padding: 6px 0;
+}
+.mobile-footer-section >.icon-menu-box {
+    padding:16px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+.mobile-footer-section >.icon-menu-box > ul > .youtube {
+    margin: 0 10px;
+}
+.mobile-footer-section >.icon-menu-box > ul > .facebook > a {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/pearlabyss/icn_footer_facebook_round.svg) no-repeat 0 0;
+    background-size: contain;
+    width: 48px;
+    height: 48px;
+}
+.mobile-footer-section >.icon-menu-box > ul > .youtube > a {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/pearlabyss/icn_footer_youtube_round.svg) no-repeat 0 0;
+    background-size: contain;
+    width: 48px;
+    height: 48px;
+}
+.mobile-footer-section >.icon-menu-box > ul > .instagram > a {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/pearlabyss/icn_footer_linkedin_round.svg) no-repeat 0 0;
+    background-size: contain;
+    width: 48px;
+    height: 48px;
+}
+
+.mobile-footer-section > .bottom-copy-right > .bottom-logo {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.mobile-footer-section > .bottom-copy-right > .bottom-logo > a {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/pearlabyss/cm_bi_black.svg) no-repeat 0 0;
+    background-size: 120px auto;
+    height: 21px;
+    width: 120px;
+}
+.mobile-footer-section > .bottom-copy-right > .copy-right-text {
+    color: #6a6a6a;
+    font-size: 15px;
+    opacity: 0.5;
+    letter-spacing: -.3px;
+    margin-bottom: 15px;
+}
