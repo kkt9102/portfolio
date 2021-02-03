@@ -1,0 +1,16 @@
+#header {border:1px solid red;}
+/* header.html css */
+body,#header-section{overflow-x: hidden;}
+#header-section {width:60px; height:50px;}
+#header-section .bars-btn {width:100%; height:100%; box-sizing:border-box;overflow: hidden;}
+#header-section .bars-btn .bar {width:100%; height:8px;}
+
+/* bars-menu non-active */
+#header-section .bars-btn .bar:first-child {top:0;}
+#header-section .bars-btn .bar:nth-child(2) {top:calc(50% - 4px);}
+#header-section .bars-btn .bar:last-child {bottom:0%;}
+
+/* bars-menu active */
+#header-section .bars-btn.active .bar:first-child {top:calc(50% - 4px); transform: rotate(45deg); transition: top 0.3s 0.3s, transform 0.3s 0.3s;}
+#header-section .bars-btn.active .bar:nth-child(2) {top:calc(50% - 4px); opacity: 0; transition: opacity 0.3s;}
+#header-section .bars-btn.active .bar:last-child {bottom:calc(50% - 4px); transform: rotate(-45deg); transition: top 0.3s 0.3s, transform 0.3s 0.3s;}
