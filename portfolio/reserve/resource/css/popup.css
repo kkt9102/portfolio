@@ -1,21 +1,21 @@
 /* popup img 커스텀 */
 .clover > .popup > .img {
-    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/clover-view.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/kkt9102/img1/blog/article/portfolio/reserve/clover-view.png);
 }
 .black-eagle > .popup > .img {
-    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/black-eagle-view.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/kkt9102/img1/blog/article/portfolio/reserve/black-eagle-view.png);
 }
 .poc > .popup > .img {
-    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/poc-view.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/kkt9102/img1/blog/article/portfolio/reserve/poc-view.png);
 }
 .siphon > .popup > .img {
-    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/siphon-view.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/kkt9102/img1/blog/article/portfolio/reserve/siphon-view.png);
 }
 .chemex > .popup > .img {
-    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/chemex-view.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/kkt9102/img1/blog/article/portfolio/reserve/chemex-view.png);
 }
 .cold-brew > .popup > .img {
-    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/cold-brew-view.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/kkt9102/img1/blog/article/portfolio/reserve/cold-brew-view.png);
 }
 /* 추출방법 popup-item 커스텀 */
 li >.popup.selected{

@@ -132,14 +132,14 @@
 }
 
 .coffee-info .score-on {
-    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/info-score-on.png) no-repeat 0 0;
+    background: url(https://cdn.jsdelivr.net/gh/kkt9102/img1/blog/article/portfolio/reserve/info-score-on.png) no-repeat 0 0;
     background-size: contain;
     width: 20px;
     height: 20px;
     display: inline-block;
 }
 .coffee-info .score-off {
-    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/info-score-off.png) no-repeat 0 0;
+    background: url(https://cdn.jsdelivr.net/gh/kkt9102/img1/blog/article/portfolio/reserve/info-score-off.png) no-repeat 0 0;
     background-size: contain;
     width: 20px;
     height: 20px;
@@ -150,11 +150,11 @@
 /* coffee-info 개별 이미지 커스텀 */
     /* Ukambani 커스텀 */
 .Ukambani > .coffee-item-box > .coffee-img {
-    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/ukambani-info.jpg) no-repeat 0 0;
+    background: url(https://cdn.jsdelivr.net/gh/kkt9102/img1/blog/article/portfolio/reserve/ukambani-info.jpg) no-repeat 0 0;
     background-size: contain;
 }
 .Ukambani >  .coffee-story > .origin-map {
-    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/map-world-img-1.jpg) no-repeat 0 0;
+    background: url(https://cdn.jsdelivr.net/gh/kkt9102/img1/blog/article/portfolio/reserve/map-world-img-1.jpg) no-repeat 0 0;
     background-size: contain;
     width: 335px;
     height: 119px;
@@ -162,7 +162,7 @@
     border-bottom-right-radius: 8px;
 }
 .Ukambani >  .design-story > .design-img {
-    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/ukambani-design.png) no-repeat 0 0;
+    background: url(https://cdn.jsdelivr.net/gh/kkt9102/img1/blog/article/portfolio/reserve/ukambani-design.png) no-repeat 0 0;
     background-size: contain;
     width: 335px;
     height: 124px;
@@ -171,11 +171,11 @@
 }
     /* Finca-La-reserva 커스텀 */
 .Finca-La-reserva > .coffee-item-box > .coffee-img {
-    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/la-reserva-info.jpg) no-repeat 0 0;
+    background: url(https://cdn.jsdelivr.net/gh/kkt9102/img1/blog/article/portfolio/reserve/la-reserva-info.jpg) no-repeat 0 0;
     background-size: contain;
 }
 .Finca-La-reserva > .coffee-story > .origin-map {
-    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/map-world-img-1.jpg) no-repeat 0 0;
+    background: url(https://cdn.jsdelivr.net/gh/kkt9102/img1/blog/article/portfolio/reserve/map-world-img-1.jpg) no-repeat 0 0;
     background-size: contain;
     width: 335px;
     height: 119px;
@@ -183,7 +183,7 @@
     border-bottom-right-radius: 8px;
 }
 .Finca-La-reserva > .design-story > .design-img {
-    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/la-reserva-design.png) no-repeat 0 0;
+    background: url(https://cdn.jsdelivr.net/gh/kkt9102/img1/blog/article/portfolio/reserve/la-reserva-design.png) no-repeat 0 0;
     background-size: contain;
     width: 335px;
     height: 124px;
@@ -192,11 +192,11 @@
 }
     /* rwanda-hingakawa 커스텀 */
 .rwanda-hingakawa > .coffee-item-box > .coffee-img {
-    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/hingakawa-info.jpg) no-repeat 0 0;
+    background: url(https://cdn.jsdelivr.net/gh/kkt9102/img1/blog/article/portfolio/reserve/hingakawa-info.jpg) no-repeat 0 0;
     background-size: contain;
 }
 .rwanda-hingakawa > .coffee-story > .origin-map {
-    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/productInvestigate_img02.jpg?dummyadsad1234) no-repeat 0 0;
+    background: url(https://cdn.jsdelivr.net/gh/kkt9102/img1/blog/article/portfolio/reserve/productInvestigate_img02.jpg) no-repeat 0 0;
     background-size: cover;
     width: 335px;
     height: 119px;
@@ -204,7 +204,7 @@
     border-bottom-right-radius: 8px;
 }
 .rwanda-hingakawa > .design-story > .design-img {
-    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/hingakawa-design.png) no-repeat 0 0;
+    background: url(https://cdn.jsdelivr.net/gh/kkt9102/img1/blog/article/portfolio/reserve/hingakawa-design.png) no-repeat 0 0;
     background-size: contain;
     width: 335px;
     height: 124px;
@@ -213,11 +213,11 @@
 }
     /* jamaica-blue-mountain 커스텀 */
 .jamaica-blue-mountain > .coffee-item-box > .coffee-img {
-    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/blue-mountain-info.jpg) no-repeat 0 0;
+    background: url(https://cdn.jsdelivr.net/gh/kkt9102/img1/blog/article/portfolio/reserve/blue-mountain-info.jpg) no-repeat 0 0;
     background-size: contain;
 }
 .jamaica-blue-mountain > .coffee-story > .origin-map {
-    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/productInvestigate_img02.jpg?dummyadsad1234) no-repeat 0 0;
+    background: url(https://cdn.jsdelivr.net/gh/kkt9102/img1/blog/article/portfolio/reserve/productInvestigate_img02.jpg) no-repeat 0 0;
     background-size: cover;
     width: 335px;
     height: 119px;
@@ -225,7 +225,7 @@
     border-bottom-right-radius: 8px;
 }
 .jamaica-blue-mountain > .design-story > .design-img {
-    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/blue-mountain-design.png) no-repeat 0 0;
+    background: url(https://cdn.jsdelivr.net/gh/kkt9102/img1/blog/article/portfolio/reserve/blue-mountain-design.png) no-repeat 0 0;
     background-size: contain;
     width: 335px;
     height: 124px;

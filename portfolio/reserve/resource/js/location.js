@@ -1040,7 +1040,7 @@ function kakao_api(){
 
 
     var imageSrc =
-        "https://kkt9102.github.io/img1/blog/article/portfolio/reserve/pin_reserve.png";
+        "https://cdn.jsdelivr.net/gh/kkt9102/img1/blog/article/portfolio/reserve/pin_reserve.png";
     // 마커 위에 커스텀오버레이를 표시합니다
     // 마커를 중심으로 커스텀 오버레이를 표시하기위해 CSS를 이용해 위치를 설정했습니다
     // 지도에 마커를 표시합니다
