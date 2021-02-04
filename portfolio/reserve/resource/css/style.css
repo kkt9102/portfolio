@@ -1,5 +1,10 @@
 body {letter-spacing: -0.25px;}
 .color-976d3f {color:#976d3f;}
+
+/* loding */
+#loding {width: 100%; height:100%; position:fixed; background: #000; z-index: 100000 !important;}
+
+
 /* header bars-btn*/
 #header {z-index: 9999 !important;}
 #header .bars-btn {width:60px; height:40px; z-index: 9999 !important; margin: 5rem;}
@@ -11,6 +16,7 @@ body {letter-spacing: -0.25px;}
 #header .bars-btn.active .bar:nth-child(2) {top:50%; opacity: 0; transition: opacity 0.4s;}
 #header .bars-btn.active .bar:last-child {top:50%; transform: rotate(-45deg); transition: top 0.2s, transform 0.2s 0.4s;}
 
+
 /* header menu-box-1 */
 #header .menu-box-1 {top:0; left:-100%; background-color: #222222; transition: left 0.2s;}
 #header .menu-box-1.active {left:0;}
@@ -20,9 +26,9 @@ body {letter-spacing: -0.25px;}
 #header .menu-box-1 ul li a:hover span {color: #976d3f;}
 /*font-outline == text-shadow: -1px 0 #976d3f, 0 1px #976d3f, 1px 0 #976d3f, 0 -1px #976d3f; */
 
-#section-1 {height:100vh;}
 
 /* section-1 */
+#section-1 {height:100vh;}
 #section-1 .background-img::after{
     content: "";
     background-image: url(https://cdn.jsdelivr.net/gh/kkt9102/img1/blog/article/portfolio/reserve/main-back-img-1.jpg);
@@ -64,6 +70,8 @@ body {letter-spacing: -0.25px;}
     height: 30px;
     bottom:-8%;
 }
+
+
 /* section-2 */
 #section-2 {background-color:#222222;}
 #section-2 .background-img img {width:100%; height: 50vh; opacity: 0.4;}
@@ -73,6 +81,7 @@ body {letter-spacing: -0.25px;}
 #section-2 .section-2_con .text-box .title {font-size:1.2rem; margin: 2rem 0 1rem;}
 #section-2 .section-2_con .text-box .sub-title {font-size:2rem; margin: 1rem 0 2.5rem;}
 #section-2 .section-2_con .text-box .sub-text {margin-bottom: 5rem;}
+
 
 /* section-3 */
 #section-3 {background-color:#222222;}
