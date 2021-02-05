@@ -1,5 +1,18 @@
+/* 공통 */
 body {letter-spacing: -0.25px;}
 .color-976d3f {color:#976d3f;}
+.text-box .title {font-size:1.2rem; margin:2rem 0 1rem;}
+
+
+/* scroll */
+html,body {scroll-behavior: smooth;}
+body::-webkit-scrollbar {width: 0.3rem; transition: width 1s;}
+/* body.active::-webkit-scrollbar {width:0.3rem;} */
+body::-webkit-scrollbar-thumb {background-color: #976d3f;}
+/* body.active::-webkit-scrollbar-thumb{background-color: #976d3f; opacity:1; border-radius:10px;} */
+body::-webkit-scrollbar-track {background-color: #222222;}
+body {scroll-behavior: smooth;}
+
 
 /* loding */
 #loding {width: 100%; height:100%; position:fixed; background: #000; z-index: 100000 !important;}
@@ -78,7 +91,6 @@ body {letter-spacing: -0.25px;}
 #section-2 .section-2_con {height:50vh;}
 #section-2 .section-2_con .title img {width: 46%; margin-top:5rem;}
 #section-2 .section-2_con .text-box {color:#bbbbbb;}
-#section-2 .section-2_con .text-box .title {font-size:1.2rem; margin: 2rem 0 1rem;}
 #section-2 .section-2_con .text-box .sub-title {font-size:2rem; margin: 1rem 0 2.5rem;}
 #section-2 .section-2_con .text-box .sub-text {margin-bottom: 5rem;}
 
@@ -87,3 +99,4 @@ body {letter-spacing: -0.25px;}
 #section-3 {background-color:#222222;}
 #section-3 .section-3_con .title img {width: 46%; margin-top:5rem;}
 #section-3 .section-3_con .text-box {color:#bbbbbb;}
+#section-3 .section-3_con .text-box .sub-title {font-size:0.9rem;}
