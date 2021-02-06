@@ -2,6 +2,7 @@
 body {letter-spacing: -0.25px;}
 .color-976d3f {color:#976d3f;}
 .text-box .title {font-size:1.2rem; margin:2rem 0 1rem;}
+.con {max-width:1024px;}
 
 
 /* scroll */
@@ -87,9 +88,9 @@ body {scroll-behavior: smooth;}
 
 /* section-2 */
 #section-2 {background-color:#222222;}
-#section-2 .background-img img {width:100%; height: 50vh; opacity: 0.4;}
+#section-2 .background-img img {width:100%; height: 60vh; opacity: 0.4;}
 #section-2 .section-2_con {height:50vh;}
-#section-2 .section-2_con .title img {width: 46%; margin-top:5rem;}
+#section-2 .section-2_con .title img {width: 90%; margin-top:5rem;}
 #section-2 .section-2_con .text-box {color:#bbbbbb;}
 #section-2 .section-2_con .text-box .sub-title {font-size:2rem; margin: 1rem 0 2.5rem;}
 #section-2 .section-2_con .text-box .sub-text {margin-bottom: 5rem;}
@@ -97,6 +98,20 @@ body {scroll-behavior: smooth;}
 
 /* section-3 */
 #section-3 {background-color:#222222;}
-#section-3 .section-3_con .title img {width: 46%; margin-top:5rem;}
+#section-3 .section-3_con .title img {width: 90%; margin-top:5rem;}
 #section-3 .section-3_con .text-box {color:#bbbbbb;}
 #section-3 .section-3_con .text-box .sub-title {font-size:0.9rem;}
+#section-3 .section-3_con .extraction-list,
+#section-3 .section-3_con .extraction-list ul {height:22rem;}
+#section-3 .section-3_con .extraction-list ul {margin-top: 5rem;}
+#section-3 .section-3_con .extraction-list ul .up-line {align-self: flex-start;}
+#section-3 .section-3_con .extraction-list ul .down-line {align-self: flex-end;}
+#section-3 .section-3_con .extraction-list .popup-list li {display:none; border-radius:2px;}
+#section-3 .section-3_con .extraction-list .popup-list li.active {display: block;}
+#section-3 .section-3_con .extraction-list .popup-list li .close-btn {width:40px; height:40px; right:0;}
+#section-3 .section-3_con .extraction-list .popup-list .title {font-size:2.5rem; padding-top:1rem;}
+#section-3 .section-3_con .extraction-list .popup-list .title_kor {font-size:1.5rem;}
+#section-3 .section-3_con .extraction-list .popup-list li {background: #000000; color:#bbbbbb;}
+#section-3 .section-3_con .extraction-list .popup-list li .con {width:80%;}
+#section-3 .section-3_con .extraction-list .popup-list li .con img {width:100%;}
+#section-3 .section-3_con .extraction-list .popup-list li .con .text {font-size:1.1rem; padding-bottom:2rem;}

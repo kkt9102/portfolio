@@ -10,6 +10,13 @@ function hasClass__init(){
             $menuBox_1.addClass('active');
         }
     });
+    $('.extraction-list ul li').click(function(){
+       var $popup_win = $('.extraction-list .popup-list  li');
+       var index = $(this).index();
+
+       $popup_win.eq(index).addClass('active');
+    //    alert(index + 1 + '번째 입니다.');
+    });
 }
 $(function(){
     hasClass__init();
