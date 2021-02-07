@@ -1,5 +1,5 @@
-function hasClass__init(){
-    $('#header .bars-btn').click(function(){
+function hasClass__init() {
+    $('#header .bars-btn').click(function () {
         var $menuBox_1 = $('#header > .menu-box-1');
         var $header = $('#header');
 
@@ -13,21 +13,17 @@ function hasClass__init(){
             $header.addClass('active');
         }
     });
-    $('.extraction-list ul li').click(function(){
-       var $popup_win = $('.extraction-list .popup-list  li');
-       var index = $(this).index();
-       var section_view = $('#section-3').height();
+    $('.extraction-list ul li .popup-img').click(function () {
+        var $popup_win = $('.extraction-list .popup-list .popup-win');
+        var index = $(this).parent().index();
 
-           $popup_win.eq(index).addClass('active').css({
-               top: 10 + '%',
-           });
-       
+        $popup_win.eq(index).addClass('active');
 
-           
-    //    $popup_win.eq(index).addClass('active');
-    //    alert(index + 1 + '번째 입니다.');
+    });
+    $('.extraction-list .popup-list > .popup-win > .con >.popup-win-header > .close-btn').click(function(){
+        $(this).closest('li').removeClass('active');
     });
 }
-$(function(){
+$(function () {
     hasClass__init();
 });
