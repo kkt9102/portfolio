@@ -37,7 +37,7 @@ body {scroll-behavior: smooth;}
 #header .menu-box-1 ul {margin: 9rem;}
 #header .menu-box-1 ul li a {margin:0.7rem; padding:0.3rem;}
 #header .menu-box-1 ul li a span {font-size:2.2rem; color:#bbbbbb; position: relative; transition: color 0.3s;}
-#header .menu-box-1 ul li a:hover span {color: #976d3f;}
+#header .menu-box-1 ul li a:hover span {color:#976d3f;}
 /*font-outline == text-shadow: -1px 0 #976d3f, 0 1px #976d3f, 1px 0 #976d3f, 0 -1px #976d3f; */
 
 
@@ -137,3 +137,14 @@ body {scroll-behavior: smooth;}
 #section-4 .section-4_con .title img {width: 70%; margin-top:5rem;}
 #section-4 .section-4_con .text-box {color:#bbbbbb;}
 #section-4 .section-4_con .text-box .sub-title {font-size:1.3rem; margin-top:1rem;}
+
+
+/* footer */
+#footer {background: #222222; color:#bbbbbb; border-top:1px solid #bbbbbb;}
+#footer .footer-section .footer-menu-box-1 ul li a {padding: 1rem 0;}
+#footer .footer-section .footer-menu-box-1 ul li span,
+#footer .footer-section .footer-menu-box-2 ul li span {font-size: 0.8rem;}
+#footer .footer-section .footer-menu-box-1 ul li a:hover span,
+#footer .footer-section .footer-menu-box-2 ul li a:hover span {color:#976d3f;}
+#footer .footer-section .bottom-text .buisnessman {font-size:0.9rem;}
+#footer .footer-section .bottom-text .copyright {font-size:0.7rem;}
