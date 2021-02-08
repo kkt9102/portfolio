@@ -147,4 +147,4 @@ body {scroll-behavior: smooth;}
 #footer .footer-section .footer-menu-box-1 ul li a:hover span,
 #footer .footer-section .footer-menu-box-2 ul li a:hover span {color:#976d3f;}
 #footer .footer-section .bottom-text .buisnessman {font-size:0.9rem;}
-#footer .footer-section .bottom-text .copyright {font-size:0.7rem;}
+#footer .footer-section .bottom-text .copyright {font-size:0.7rem; margin-bottom: 0; padding-bottom: 1rem;}
