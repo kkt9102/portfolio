@@ -9,7 +9,6 @@
         type="image/x-icon">
     <!-- jQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    
     <!-- font-awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <!-- stylesheet -->
@@ -30,11 +29,14 @@
         //     $('#loding').fadeOut();
         // })
         window.onload = function () {
+            var progressbar = $(window);
+            var progressLabel = $('#loding.est_text');
+            progressLabel.text( progressbar.progressbar( "value" ) + "%" );
             $('#loding').fadeOut();
         }
     </script>
     <div id="loding">
-
+        <div class="test_text"></div>
     </div>
     <!-- loding end -->
     <!-- include top-menu-section start-->

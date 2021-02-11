@@ -17,6 +17,7 @@ body {scroll-behavior: smooth;}
 
 /* loding */
 #loding {width: 100%; height:100%; position:fixed; background: #000; z-index: 100000 !important;}
+.test_text {color:#fff; font-size:3rem; font-weight: bold;}
 
 
 /* header bars-btn*/
