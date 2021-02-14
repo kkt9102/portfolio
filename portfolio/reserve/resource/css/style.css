@@ -143,8 +143,8 @@ body {scroll-behavior: smooth;}
 #section-4 .section-4_con .menu-box-3 ul li a .coffee_item img {width:100%;}
 
 /* section-5 */
-#section-5 {background-color:#222222; padding-bottom:5rem;}
-#section-5 .section-5_con .title img {width: auto; height:2.8rem; margin-top:5rem;}
+#section-5 {background-color:#222222; border-bottom: 1px solid #bbbbbb; padding-bottom:5rem;}
+#section-5 .section-5_con .title img {width: 79.5%; margin-top:5rem;}
 #section-5 .section-5_con .text-box {color:#bbbbbb;}
 #section-5 .section-5_con .text-box .sub-title {font-size:0.8rem; margin-top:1rem; margin-bottom:1rem;}
 /* kakao-map popup 커스텀 */
@@ -168,7 +168,7 @@ body {scroll-behavior: smooth;}
 .store-location { padding: 5px 10px; font-size: 13px;}
 
 /* footer */
-#footer {background: #222222; color:#bbbbbb; border-top:1px solid #bbbbbb;}
+#footer {background: #222222; color:#bbbbbb; padding-top:2rem;}
 #footer .footer-section .footer-menu-box-1 ul li a {padding: 1rem 0;}
 #footer .footer-section .footer-menu-box-1 ul li span,
 #footer .footer-section .footer-menu-box-2 ul li span {font-size: 0.8rem;}
