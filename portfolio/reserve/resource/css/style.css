@@ -1,5 +1,5 @@
 /* 공통 */
-body {letter-spacing: -0.25px;}
+body {letter-spacing: -0.25px; background-color: #222222;}
 .color-976d3f {color:#976d3f;}
 .text-box .title {font-size:1.2rem; margin:2rem 0 1rem;}
 .con {max-width:1200px;}
@@ -105,6 +105,8 @@ body {scroll-behavior: smooth;}
 #section-3 .section-3_con .extraction-list,
 #section-3 .section-3_con .extraction-list ul:not(.popup-list) {height:22rem;}
 #section-3 .section-3_con .extraction-list ul {margin-top: 2.5rem;}
+#section-3 .section-3_con .extraction-list ul li .popup-img img {transition: all 0.2s;}
+#section-3 .section-3_con .extraction-list ul li:hover .popup-img img {box-shadow: 1px 4px 10px 4px rgba(0,0,0,1); transform: translate3d(1px, 1px, 2px)}
 #section-3 .section-3_con .extraction-list ul .up-line {align-self: flex-start;}
 #section-3 .section-3_con .extraction-list ul .down-line {align-self: flex-end;}
 #section-3 .section-3_con .extraction-list .popup-list li {display:none; border-radius:2px; top:15%;}
@@ -120,7 +122,6 @@ body {scroll-behavior: smooth;}
 #section-3 .section-3_con .extraction-list .popup-list li .con .close-btn div:last-child {transform: rotate(-45deg);}
 #section-3 .section-3_con .extraction-list .popup-list li .con img {width:100%; margin-bottom: 1rem; border-radius: 5px;}
 #section-3 .section-3_con .extraction-list .popup-list li .con .text {font-size:1.1rem; padding-bottom:2.3rem;}
-#section-3 .section-3_con .extraction-list ul li .popup-img:hover {box-shadow: 0 1px 1px rgba(0,0,0,0);}
 #section-3::after {
     content: "";
     background-image: url(https://cdn.jsdelivr.net/gh/kkt9102/img1/blog/article/portfolio/reserve/reserve-section-3.jpg);
@@ -135,12 +136,13 @@ body {scroll-behavior: smooth;}
 }
 
 /* section-4 */
-#section-4 {background-color:#222222;}
+#section-4 {background-color:#222222; margin-bottom:2rem;}
 #section-4 .section-4_con .title img {width: auto; height:2.8rem; margin-top:5rem;}
 #section-4 .section-4_con .text-box {color:#bbbbbb;}
-#section-4 .section-4_con .text-box .sub-title {font-size:1.3rem; margin-top:1rem;}
-#section-4 .section-4_con .menu-box-3 ul li {width:calc(100%/4);}
-#section-4 .section-4_con .menu-box-3 ul li a .coffee_item img {width:100%;}
+#section-4 .section-4_con .text-box .sub-title {font-size:1.3rem; margin-top:1rem; margin-bottom:2rem;}
+#section-4 .section-4_con .menu-box-3 ul li {width:calc(100%/4); margin-bottom: 1.5rem;}
+#section-4 .section-4_con .menu-box-3 ul li a .coffee_item img {width:100%; transition: all 0.2s;}
+#section-4 .section-4_con .menu-box-3 ul li:hover a .coffee_item img {transform: scale(1.05);}
 
 /* section-5 */
 #section-5 {background-color:#222222; border-bottom: 1px solid #bbbbbb; padding-bottom:5rem;}
