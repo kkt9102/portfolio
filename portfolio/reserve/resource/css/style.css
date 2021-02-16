@@ -106,7 +106,7 @@ body {scroll-behavior: smooth;}
 #section-3 .section-3_con .extraction-list ul:not(.popup-list) {height:22rem;}
 #section-3 .section-3_con .extraction-list ul {margin-top: 2.5rem;}
 #section-3 .section-3_con .extraction-list ul li .popup-img img {transition: all 0.2s;}
-#section-3 .section-3_con .extraction-list ul li:hover .popup-img img {box-shadow: 1px 4px 10px 4px rgba(0,0,0,1); transform: translate3d(1px, 1px, 2px)}
+#section-3 .section-3_con .extraction-list ul li:hover .popup-img img {    box-shadow: 0px -1px 2px 5px rgb(0 0 0 / 40%); transform: translate3d(1px, 1px, 2px) scale(0.99);}
 #section-3 .section-3_con .extraction-list ul .up-line {align-self: flex-start;}
 #section-3 .section-3_con .extraction-list ul .down-line {align-self: flex-end;}
 #section-3 .section-3_con .extraction-list .popup-list li {display:none; border-radius:2px; top:15%;}
@@ -176,5 +176,16 @@ body {scroll-behavior: smooth;}
 #footer .footer-section .footer-menu-box-2 ul li span {font-size: 0.8rem;}
 #footer .footer-section .footer-menu-box-1 ul li a:hover span,
 #footer .footer-section .footer-menu-box-2 ul li a:hover span {color:#976d3f;}
+#footer .footer-section .footer-menu-box-2 {width:70%; margin-left:auto; margin-right: auto;}
 #footer .footer-section .bottom-text .buisnessman {font-size:0.9rem;}
 #footer .footer-section .bottom-text .copyright {font-size:0.7rem; margin-bottom: 0; padding-bottom: 1rem;}
+#footer .footer-section .footer-logo .starbucks-logo {
+    background-image: url(https://cdn.jsdelivr.net/gh/kkt9102/img1/blog/article/portfolio/reserve/footer-logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:100px;
+    height:100px;
+    position: absolute;
+    right: 0;
+    bottom:0%;
+}
