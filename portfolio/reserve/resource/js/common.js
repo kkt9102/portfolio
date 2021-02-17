@@ -17,6 +17,7 @@ function hasClass__init() {
         var $popup_win = $('.extraction-list .popup-list .popup-win');
         var index = $(this).parent().index();
 
+        $popup_win.removeClass('active');
         $popup_win.eq(index).addClass('active');
 
     });
@@ -24,6 +25,17 @@ function hasClass__init() {
         $(this).closest('li').removeClass('active');
     });
 }
+// scroll_Move
+function scroll_move(no) {
+    var offset = $('#section-' + no).offset();
+    var $menu_btn = $('.bars-btn');
+    var $menu_box = $('.menu-box-1');
+    $('html').animate({
+        scrollTop: offset.top
+    }, 450);
+    $menu_btn.removeClass('active');
+    $menu_box.removeClass('active');
+};
 // section-4에 아이템 개수정렬
 function Coffee_item() {
         var $Item = $('#section-4 .section-4_con .menu-box-3 ul li:last-child');
@@ -83,33 +95,7 @@ function Coffee_item() {
         //     }
         // };
 }
-// function Coffee_item(){
-//     var $Item_index = $('.menu-box-3 ul li').length;
-//     var $String = $Item_index.toString()[1];
 
-
-//     if ($Item_index.toString().length == 2 ){
-//         if ($String == [3&&7]) {
-//             $('.menu-box-3 ul li:last-child').after('<li>test1</li><li>test1</li><li>test1</li>');
-//         } else if ($String == [4&&8]) {
-//             $('.menu-box-3 ul li:last-child').after('<li>test1</li><li>test1</li>');
-//         } else if ($String == [1&&5&&9]) {
-//             $('.menu-box-3 ul li:last-child').after('<li>test1</li>');
-//         } else if ($String == [0&&2&&6]) {
-//             return;
-//         }
-//     } else {
-//         if ($String == [3&&7]) {
-//             $('.menu-box-3 ul li:last-child').after('<li>test1</li><li>test1</li><li>test1</li>');
-//         } else if ($String == [4&&8]) {
-//             $('.menu-box-3 ul li:last-child').after('<li>test1</li><li>test1</li>');
-//         } else if ($String == [1&&5&&9]) {
-//             $('.menu-box-3 ul li:last-child').after('<li>test1</li>');
-//         } else if ($String == [0&&2&&6]) {
-//             return;
-//         }
-//     }
-// }
 
 $(function () {
     hasClass__init();

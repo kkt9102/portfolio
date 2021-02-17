@@ -6,7 +6,7 @@ body {letter-spacing: -0.25px; background-color: #222222;}
 
 
 /* scroll */
-html,body {scroll-behavior: smooth;}
+/* html,body {scroll-behavior: smooth;} */
 body::-webkit-scrollbar {width: 0.3rem; height: 0.3rem; transition: width 1s;}
 /* body.active::-webkit-scrollbar {width:0.3rem;} */
 body::-webkit-scrollbar-thumb {background-color: #976d3f;}
@@ -46,7 +46,7 @@ body {scroll-behavior: smooth;}
 #section-1 {height:100vh;}
 #section-1 .background-img::after{
     content: "";
-    background-image: url(https://cdn.jsdelivr.net/gh/kkt9102/img1/blog/article/portfolio/reserve/main-back-img-1.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/kkt9102/img1/blog/article/portfolio/reserve/main-back-img-1-1.jpg);
     background-size: cover;
     background-position:0 0;
     background-repeat: no-repeat;
@@ -55,7 +55,7 @@ body {scroll-behavior: smooth;}
     position: absolute;
     width: 100%; 
     height: 100vh;
-    opacity: 80%;
+    /* opacity: 80%; */
 }
 #section-1 .section-1_con {width: 100%; height: 100%; background-color: rgba(0,0,0,0.6);}
 #section-1 .main-logo {
