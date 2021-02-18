@@ -77,14 +77,15 @@ body {scroll-behavior: smooth;}
     font-size: 3rem;
     margin-top: 3rem;
 }
-#section-1 .guide-arrow .btn {
+#section-1 .guide-arrow .btn img {}
+/* #section-1 .guide-arrow .btn {
     background-image: url(https://cdn.jsdelivr.net/gh/kkt9102/img1/blog/article/portfolio/reserve/arrow.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    width:100px;
     height: 30px;
-    bottom:-8%;
-}
+} */
 
 
 /* section-2 */
@@ -176,7 +177,9 @@ body {scroll-behavior: smooth;}
 #footer .footer-section .footer-menu-box-2 ul li span {font-size: 0.8rem;}
 #footer .footer-section .footer-menu-box-1 ul li a:hover span,
 #footer .footer-section .footer-menu-box-2 ul li a:hover span {color:#976d3f;}
-#footer .footer-section .footer-menu-box-2 {width:70%; margin-left:auto; margin-right: auto;}
+#footer .footer-section .footer-menu-box-2 {width:35%; margin-left:auto; margin-right: auto;}
+#footer .footer-section .footer-menu-box-2 ul li a {padding: 0.3rem 0.7rem; border: 2px solid #dddddd; border-radius: 3px; font-weight: 700;}
+#footer .footer-section .footer-menu-box-2 ul li a:hover {border:2px solid #976d3f;}
 #footer .footer-section .bottom-text .buisnessman {font-size:0.9rem;}
 #footer .footer-section .bottom-text .buisnessman span:not(:last-child) {margin-right: 10px;}
 #footer .footer-section .bottom-text .copyright {font-size:0.7rem; margin-bottom: 0; padding-bottom: 1rem;}

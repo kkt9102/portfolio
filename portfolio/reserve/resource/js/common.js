@@ -25,6 +25,18 @@ function hasClass__init() {
         $(this).closest('li').removeClass('active');
     });
 }
+/* scroll-guide-btn moving */
+// function guide_arrow() {
+//     $(document).ready(function () {
+//         $('#section-1 .section-1_con .guide-arrow .btn').animate({
+//             bottom: -8 + "%"
+//         }, 500, function () {
+//             $('#section-1 .section-1_con .guide-arrow .btn').animate({
+//                 bottom: -9.5 + "%"
+//             }, 500, guide_arrow);
+//         });
+//     })
+// };
 // scroll_Move
 function scroll_move(no) {
     var offset = $('#section-' + no).offset();
@@ -99,5 +111,6 @@ function Coffee_item() {
 
 $(function () {
     hasClass__init();
+    guide_arrow();
     Coffee_item();
 });
