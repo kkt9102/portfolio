@@ -178,6 +178,7 @@ body {scroll-behavior: smooth;}
 #footer .footer-section .footer-menu-box-2 ul li a:hover span {color:#976d3f;}
 #footer .footer-section .footer-menu-box-2 {width:70%; margin-left:auto; margin-right: auto;}
 #footer .footer-section .bottom-text .buisnessman {font-size:0.9rem;}
+#footer .footer-section .bottom-text .buisnessman span:not(:last-child) {margin-right: 10px;}
 #footer .footer-section .bottom-text .copyright {font-size:0.7rem; margin-bottom: 0; padding-bottom: 1rem;}
 #footer .footer-section .footer-logo .starbucks-logo {
     background-image: url(https://cdn.jsdelivr.net/gh/kkt9102/img1/blog/article/portfolio/reserve/footer-logo.png);
