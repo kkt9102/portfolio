@@ -77,6 +77,7 @@ body {scroll-behavior: smooth;}
     font-size: 3rem;
     margin-top: 3rem;
 }
+#section-1 .guide-arrow .btn {height: 80px;}
 #section-1 .guide-arrow .btn img {}
 /* #section-1 .guide-arrow .btn {
     background-image: url(https://cdn.jsdelivr.net/gh/kkt9102/img1/blog/article/portfolio/reserve/arrow.png);

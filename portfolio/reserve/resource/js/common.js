@@ -26,17 +26,17 @@ function hasClass__init() {
     });
 }
 /* scroll-guide-btn moving */
-// function guide_arrow() {
-//     $(document).ready(function () {
-//         $('#section-1 .section-1_con .guide-arrow .btn').animate({
-//             bottom: -8 + "%"
-//         }, 500, function () {
-//             $('#section-1 .section-1_con .guide-arrow .btn').animate({
-//                 bottom: -9.5 + "%"
-//             }, 500, guide_arrow);
-//         });
-//     })
-// };
+function guide_arrow() {
+    $(document).ready(function(){
+        $('#section-1 .guide-arrow .btn img').animate({
+            top: 58 + '%'
+        },400, function(){
+            $('#section-1 .guide-arrow .btn img').animate({
+                top:50 + '%'
+        },400 ,guide_arrow);
+        })
+    })
+};
 // scroll_Move
 function scroll_move(no) {
     var offset = $('#section-' + no).offset();
