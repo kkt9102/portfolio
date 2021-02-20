@@ -3,6 +3,8 @@
 @media all and (max-width:1024px) {
 	.pc-view {display:none;}
 	.tablet-view {display:block;}
+	.con {max-width:1024px;}
+	.title img {height:1.8rem;}
 }
 
 @media all and (max-width:780px) {
