@@ -36,10 +36,12 @@ function guide_arrow() {
         },400 ,guide_arrow);
         })
     })
+    
 };
 // scroll_Move
 function scroll_move(no) {
     var offset = $('#section-' + no).offset();
+    var section_2 = $('#section-2').offset();
     var $menu_btn = $('.bars-btn');
     var $menu_box = $('.menu-box-1');
     $('html').animate({
@@ -47,6 +49,11 @@ function scroll_move(no) {
     }, 450);
     $menu_btn.removeClass('active');
     $menu_box.removeClass('active');
+    $('#section-1 .guide-arrow .btn img').click(function(){
+        $('html').animate({
+            scrollTop: section_2.top
+        },450);
+    })
 };
 // section-4에 아이템 개수정렬
 function Coffee_item() {
