@@ -1,2 +1,27 @@
 /* 페이지 접속 로딩페이지 */
 #loding { position:fixed; z-index:9999; background-color: #efefef;}
+
+/* 공통style */
+.con {max-width:1300px;}
+.popup-bg {position: fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5); display: none;}
+.popup-bg.active {display: block;}
+
+/* section-1 */
+#section-1 { height:100vh; background: #000;}
+#section-1 * {text-shadow: -0.04rem 0 #ffffff, 0 0.04rem #ffffff, 0.04rem 0 #ffffff, 0 -0.04rem #ffffff;}
+#section-1 .section-title .title {font-size:4rem; font-weight: bold;}
+#section-1 .section-title .sub-title {font-size:2rem;}
+
+/* section-2 */
+
+
+/* section-3 */
+#section-3 .portfolio-menu .btn-list {width: 100%;}
+#section-3 .portfolio-menu .btn-list li {width:calc(100%/3);}
+#section-3 .portfolio-menu .btn-list li .page-img {height: 20rem;}
+#section-3 .portfolio-menu .btn-list .reserve .page-img {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/starbucks-reserve-main.png)no-repeat 0 0; 
+    background-size: cover;
+}
+#section-3 .popup-win-list .popup-list li {display: none; width:90%; height: 90%; border:1px solid #efefef; background:#eeeeee;}
+#section-3 .popup-win-list .popup-list li.active {display: block; position:fixed; z-index: 50 !important; margin: auto; top:0; bottom:0; left:0; right:0;}

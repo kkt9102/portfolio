@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="resource/css/corssbrowsing.css">
     <script src="resource/js/common.js"></script>
 </head>
-<body>
+<body class="relative">
     <!-- loding start-->
     <script type="text/javascript"> 
         $(window).ready(function() { 
@@ -29,7 +29,7 @@
     </div>
     <!-- loding end-->
     <!-- section-1 start (페이지 인트로) -->
-    <div class="section-1">
+    <div id="section-1">
         <div class="section-title text-align-center">
             <div class="title">kkt9102 Portfolio</div>
             <div class="sub-title">언제나 열정적인 프론트엔드 개발자 김기태 입니다.</div>
@@ -38,14 +38,33 @@
     <!-- section-1 end -->
 
     <!-- section-2 start (프로필) -->
-    <div class="section-2">
+    <div id="section-2">
 
     </div>
     <!-- section-2 end -->
 
     <!-- section-3 start (작품리스트)-->
-    <div class="section-3">
-        <a href="portfolio/reserve/index.html">스타벅스 리저브(리디자인)</a>
+    <div id="section-3">
+        <div class="con">
+            <nav class="portfolio-menu">
+                <ul class="btn-list flex flex-jc-sb">
+                    <li class="reserve">
+                        <div class="page-img"></div>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="popup-win-list">
+                <div class="popup-bg"></div>
+                <ul class="popup-list">
+                    <li>
+                        <div class="popup-win">
+                            <a href="portfolio/reserve/index.html" target="_blank">스타벅스 리저브(리디자인)</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        
     </div>
     <!-- section-3 end -->
     
