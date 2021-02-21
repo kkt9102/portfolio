@@ -11,7 +11,7 @@ function popup__open() {
 function popup_close() {
     $('.popup-bg,.popup-close-btn').click(function(){
         $('.popup-bg').removeClass('active');
-        $('.popup-close-btn')
+        $('.popup-close-btn').closest('li').removeClass('active');
     });
 }
 
