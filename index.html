@@ -21,11 +21,11 @@
 <body class="relative">
     <!-- loding start-->
     <script type="text/javascript"> 
-        $(window).ready(function() { 
-            $('#loading').fadeOut(); 
-        }); 
+        window.onload = function () {
+            $('#loading').fadeOut();
+        }
     </script>
-    <div id="loading" class="width-100p height-100p">
+    <div id="loading">
     </div>
     <!-- loding end-->
     <!-- section-1 start (페이지 인트로) -->
@@ -58,7 +58,7 @@
                 <ul class="popup-list">
                     <li class="relative">
                         <div class="popup-win">
-                            <div class="popup-close-btn absolute-right">close</div>
+                            <div class="popup-close-btn absolute-right"></div>
                             <a href="portfolio/reserve/index.html" target="_blank">스타벅스 리저브(리디자인)</a>
                         </div>
                     </li>

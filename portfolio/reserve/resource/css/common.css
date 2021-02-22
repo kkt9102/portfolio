@@ -5,6 +5,7 @@ a { color:inherit; text-decoration:none;}
 /* common */
 .con { margin-left:auto; margin-right:auto;}
 .cursor-p { cursor:pointer;}
+.border-box {box-sizing: border-box;}
 
 /* display */
 .block { display:block;}
