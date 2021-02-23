@@ -25,6 +25,28 @@
     background: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/starbucks-reserve-main.png)no-repeat 0 0; 
     background-size: cover;
 }
+#section-3 .portfolio-menu .btn-list .seoul-arts .page-img {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/seoularts_photo/seoulart-main.png)no-repeat 0 0; 
+    background-size: cover;
+}
 #section-3 .popup-win-list .popup-list {height: 0;}
-#section-3 .popup-win-list .popup-list > li { overflow:hidden; opacity: 0; visibility: hidden; width:90%; height: 90%; border:1px solid #efefef; background:#eeeeee; transition: visibility 0.3s, opacity 0.3s;}
+#section-3 .popup-win-list .popup-list > li { overflow:hidden; opacity: 0; visibility: hidden; width:90%; border:1px solid #efefef; background:#eeeeee; transition: visibility 0.3s, opacity 0.3s;}
 #section-3 .popup-win-list .popup-list > li.active {opacity: 1; visibility: visible; position:fixed; z-index: 50 !important; margin: auto; top:0; bottom:0; left:0; right:0;}
+
+#section-3 .popup-win-list .popup-list > .reserve .main-page-img {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/starbucks-reserve-main.png)no-repeat 0 0; 
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+    transition: background-position 5s;
+} 
+#section-3 .popup-win-list .popup-list > .seoul-arts .main-page-img {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/seoularts_photo/seoulart-main.png)no-repeat 0 0; 
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+    transition: background-position 5s;
+} 
+#section-3 .popup-win-list .popup-list > li .main-page-img:hover {
+    background-position: 0 100%;
+}

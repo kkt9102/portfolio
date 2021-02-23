@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="resource/css/media.css">
     <link rel="stylesheet" href="resource/css/corssbrowsing.css">
     <script src="resource/js/common.js"></script>
+    <script src="resource/js/crossbrowsing.js"></script>
 </head>
 <body class="relative">
     <!-- loding start-->
@@ -39,7 +40,26 @@
 
     <!-- section-2 start (프로필) -->
     <div id="section-2">
-
+        <nav class="skill">
+            <ul>
+                <li class="markup">
+                    <div></div>
+                    <div class="text">텍스트 테스트</div>
+                </li>
+                <li class="javascript">
+                    <div></div>
+                    <div class="text">텍스트 테스트</div>
+                </li>
+                <li class="responsive">
+                    <div></div>
+                    <div class="text">텍스트 테스트</div>
+                </li>
+                <li class="communication">
+                    <div></div>
+                    <div class="text">텍스트 테스트</div>
+                </li>
+            </ul>
+        </nav>
     </div>
     <!-- section-2 end -->
 
@@ -51,15 +71,19 @@
                     <li class="reserve cursor-p">
                         <div class="page-img"></div>
                     </li>
+                    <li class="seoul-arts cursor-p">
+                        <div class="page-img"></div>
+                    </li>
                 </ul>
             </nav>
             <nav class="popup-win-list">
                 <div class="popup-bg"></div>
                 <ul class="popup-list">
                     <!-- 포트폴리오페이지 추가시 팝업구조
-                        <li class="relative">
-                        <div class="popup-win">
+                    <li class="relative">
+                        <div class="popup-win flex height-100p">
                             <div class="popup-close-btn absolute-right"></div>
+                            <div class="main-page-img"></div>
                             <ul class="link-btns">
                                 <li class="portfolio-page">
                                     <a href="" target="_blank"></a>
@@ -70,28 +94,50 @@
                                 <li class="git-repository">
                                     <a href="" target="_blank"></a>
                                 </li>
-                            </ul>
-                            
+                            </ul>                            
                         </div>
                     </li>
                  -->
-                    <li class="relative">
-                        <div class="popup-win">
+                    <!-- 스타벅스 리저브 -->
+                    <li class="reserve relative">
+                        <div class="popup-win flex height-100p">
                             <div class="popup-close-btn absolute-right"></div>
+                            <div class="main-page-img left"></div>
+                            <div class="fight">
+                                <ul class="link-btns flex">
+                                    <li class="portfolio-page">
+                                        <a href="portfolio/reserve/index.html" target="_blank">스타벅스 리저브</a>
+                                    </li>
+                                    <li class="original-page">
+                                        <a href="https://www.starbucks.co.kr/index.do" target="_blank">Original</a>
+                                    </li>
+                                    <li class="git-repository">
+                                        <a href="" target="_blank">Git-Repository</a>
+                                    </li>
+                                </ul>   
+                            </div>                                                     
+                        </div>
+                    </li>
+
+                    <!-- 서울예술대학교 -->
+                    <li class="seoul-arts relative">
+                        <div class="popup-win flex height-100p">
+                            <div class="popup-close-btn absolute-right"></div>
+                            <div class="main-page-img"></div>
                             <ul class="link-btns">
                                 <li class="portfolio-page">
-                                    <a href="portfolio/reserve/index.html" target="_blank">스타벅스 리저브</a>
+                                    <a href="" target="_blank">서울예술대학교</a>
                                 </li>
                                 <li class="original-page">
-                                    <a href="https://www.starbucks.co.kr/index.do" target="_blank">Original</a>
+                                    <a href="https://www.seoularts.ac.kr/mbs/kr/index.jsp" target="_blank">Original</a>
                                 </li>
                                 <li class="git-repository">
                                     <a href="" target="_blank">Git-Repository</a>
                                 </li>
-                            </ul>
-                            
+                            </ul>                            
                         </div>
                     </li>
+
                 </ul>
             </nav>
         </div>
