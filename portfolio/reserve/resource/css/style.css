@@ -289,7 +289,7 @@ body {scroll-behavior: smooth;}
 
 }
 
-@media all and (max-width:420px) {
+@media all and (max-width:425px) {
     .con {max-width: 95%;}
     .title img {display: none;}
     .text-box .title {font-size: 1.2rem;}
