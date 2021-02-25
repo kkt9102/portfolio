@@ -7,6 +7,7 @@
 .popup-bg.active {display: block;}
 .popup-close-btn {cursor: pointer; background:url(https://kkt9102.github.io/img1/icon/close.png) no-repeat 0 0; background-size:contain; width:2.5rem; height: 2.5rem;margin: 0.5rem; transition: all 0.3s;}
 .popup-close-btn:hover {transform: rotate(180deg);}
+.mo_view {display:none;}
 
 /* section-1 */
 #section-1 { height:100vh; background: #000;}
@@ -22,7 +23,7 @@
 #section-3 .portfolio-menu .btn-list li {width:calc(100%/3); margin:2rem;} 
 #section-3 .portfolio-menu .btn-list li .page-img {height: 20rem; cursor: pointer; border-radius: 0.5rem;}
 #section-3 .popup-win-list .popup-list {height: 0;}
-#section-3 .popup-win-list .popup-list > li { overflow:hidden; opacity: 0; visibility: hidden; width:90%; border:1px solid #efefef; background:#eeeeee; transition: visibility 0.3s, opacity 0.3s;}
+#section-3 .popup-win-list .popup-list > li {overflow:hidden;opacity: 0;visibility: hidden;width:90%;border:1px solid #efefef;border-radius: 0.5rem;background:#eeeeee;transition: visibility 0.3s, opacity 0.3s;}
 #section-3 .popup-win-list .popup-list > li.active {opacity: 1; visibility: visible; position:fixed; z-index: 50 !important; margin: auto; top:0; bottom:0; left:0; right:0;}
 #section-3 .popup-win-list .popup-list > li .right {width: 50%;}
 #section-3 .popup-win-list .popup-list > li .main-page-img:hover { background-position: 0 100%;}
@@ -44,3 +45,57 @@
     height: 100%;
     transition: background-position 5s;
 } 
+
+.tablet-view {display:none;}
+.mo-view {display: none;}
+@media all and (max-width:1024px) {
+	#body {padding-top:80px;}
+	.pc-view {display:none;}
+	.tablet-view {display:block;}
+	.mo_view {display:block;}
+
+    /* section-1 */
+    #section-1 * {text-shadow: -0.1rem 0 #ffffff, 0 0.1rem #ffffff, 0.1rem 0 #ffffff, 0 -0.1rem #ffffff;}
+    #section-1 .section-title .title {font-size:8rem;}
+    #section-1 .section-title .sub-title {font-size:2.5rem; text-shadow: -0.09rem 0 #ffffff, 0 0.09rem #ffffff, 0.09rem 0 #ffffff, 0 -0.09rem #ffffff;}
+
+    /* section-3 */
+    #section-3 .popup-close-btn {position:relative; margin-left:calc(100% - 3rem);}
+    #section-3 .mo_view {position:absolute;height: 3.5rem;line-height: 3.5rem;left: 1rem;font-size: 2rem;}
+    #section-3 .popup-win-list .popup-list > li > div {flex-wrap:wrap;}
+    #section-3 .popup-win-list .popup-list > li .main-page-img {width: 95% !important;height:50% !important;margin: 0 auto;}
+    #section-3 .popup-win-list .popup-list > li .right {width: 95%;height: 45%;margin: 0 auto;}
+
+}
+
+@media all and (max-width:780px) {
+
+}
+
+@media all and (max-width:720px) {
+
+}
+
+@media all and (max-width:600px) {
+
+}
+
+@media all and (max-width:550px) {
+
+}
+
+@media all and (max-width:500px) {
+
+}
+
+@media all and (max-width:450px) {
+
+}
+
+@media all and (max-width:360px) {
+
+}
+
+@media all and (max-width:320px) {
+    
+}
