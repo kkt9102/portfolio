@@ -65,7 +65,6 @@
     #section-3 .popup-win-list .popup-list > li > div {flex-wrap:wrap;}
     #section-3 .popup-win-list .popup-list > li .main-page-img {width: 95% !important;height:50% !important;margin: 0 auto;}
     #section-3 .popup-win-list .popup-list > li .right {width: 95%;height: 45%;margin: 0 auto;}
-
 }
 
 @media all and (max-width:780px) {
