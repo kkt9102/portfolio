@@ -1,6 +1,15 @@
 /* 페이지 접속 로딩페이지 */
 #loading {width: 100%; height:100%; position:fixed; background: #000; z-index: 100000 !important;}
 
+/* scroll */
+/* html,body {scroll-behavior: smooth;} */
+body::-webkit-scrollbar {width: 0.3rem; height: 0.3rem; transition: width 1s;}
+/* body.active::-webkit-scrollbar {width:0.3rem;} */
+body::-webkit-scrollbar-thumb {background-color: #000000;}
+/* body.active::-webkit-scrollbar-thumb{background-color: #976d3f; opacity:1; border-radius:10px;} */
+body::-webkit-scrollbar-track {background-color: #ffffff;}
+body {scroll-behavior: smooth;}
+
 /* 공통style */
 .con {max-width:1300px;}
 .popup-bg {position: fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5); display: none;}
@@ -16,7 +25,7 @@
 #section-1 .section-title .sub-title {font-size:2rem;}
 
 /* section-2 */
-
+#section-2 .skill ul li {width: calc(100%/4);text-align: center;}
 
 /* section-3 */
 #section-3 .portfolio-menu .btn-list {width: 100%;}
@@ -28,11 +37,11 @@
 #section-3 .popup-win-list .popup-list > li .right {width: 50%;}
 #section-3 .popup-win-list .popup-list > li .main-page-img:hover { background-position: 0 100%;}
 /* btn-list*/
-#section-3 .portfolio-menu .btn-list .reserve .page-img { background: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/starbucks-reserve-main.png)no-repeat 0 0; background-size: cover;}
+#section-3 .portfolio-menu .btn-list .reserve .page-img { background: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/reserve_main_win.png)no-repeat 0 0; background-size: cover;}
 #section-3 .portfolio-menu .btn-list .seoul-arts .page-img { background: url(https://kkt9102.github.io/img1/blog/article/portfolio/seoularts_photo/seoulart-main.png)no-repeat 0 0; background-size: cover;}
 /* popup-win 전체 이미지 리스트 */
 #section-3 .popup-win-list .popup-list > .reserve .main-page-img {
-    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/starbucks-reserve-main.png)no-repeat 0 0; 
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/reserve_main_win.png)no-repeat 0 0; 
     background-size: cover;
     width: 50%;
     height: 100%;
@@ -53,6 +62,7 @@
 	.pc-view {display:none;}
 	.tablet-view {display:block;}
 	.mo_view {display:block;}
+    .con {max-width:95%;}
 
     /* section-1 */
     #section-1 * {text-shadow: -0.1rem 0 #ffffff, 0 0.1rem #ffffff, 0.1rem 0 #ffffff, 0 -0.1rem #ffffff;}
@@ -84,7 +94,8 @@
 }
 
 @media all and (max-width:500px) {
-
+    /* section-2 */
+    #section-2 .skill ul li {float: none; text-align: center;}
 }
 
 @media all and (max-width:450px) {
@@ -94,12 +105,12 @@
 @media all and (max-width:430px) {
 
     /* section-1 */
-    #section-1 .section-title .title {font-size:4rem;}
-    #section-1 .section-title .sub-title {font-size:2.7rem;}
+    #section-1 .section-title .title {font-size:4rem;padding-top: 15rem;}
+    #section-1 .section-title .sub-title {font-size: 1.7rem;word-break: keep-all;}
 
     /* section-3 */
     #section-3 .portfolio-menu .btn-list {flex-wrap:wrap;}
-    #section-3 .portfolio-menu .btn-list li {width:100%;}
+    #section-3 .portfolio-menu .btn-list li {width:100%;margin: 1rem;}
 
     
     #section-3 strong.mo_view {font-size:1rem;}
