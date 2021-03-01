@@ -91,8 +91,27 @@
 
 }
 
-@media all and (max-width:360px) {
+@media all and (max-width:430px) {
 
+    /* section-1 */
+    #section-1 .section-title .title {font-size:4rem;}
+    #section-1 .section-title .sub-title {font-size:2.7rem;}
+
+    /* section-3 */
+    #section-3 .portfolio-menu .btn-list {flex-wrap:wrap;}
+    #section-3 .portfolio-menu .btn-list li {width:100%;}
+
+    
+    #section-3 strong.mo_view {font-size:1rem;}
+    #section-3 .popup-win-list .popup-list > li .text p {word-break: keep-all;font-weight: 600;}
+    /* section-3 내 팝업이미지 */
+    #section-3 .popup-win-list .popup-list > .reserve .main-page-img {url();}
+
+    
+}
+
+@media all and (max-width:375px) {
+    #section-1 .section-title .title {font-size:4rem;}
 }
 
 @media all and (max-width:320px) {
