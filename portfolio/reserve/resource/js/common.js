@@ -11,10 +11,12 @@ function hasClass__init() {
             $(this).removeClass('active');
             $menuBox_1.removeClass('active');
             $header.removeClass('active');
+            $('body').removeClass('active');
         } else {
             $(this).addClass('active');
             $menuBox_1.addClass('active');
             $header.addClass('active');
+            $('body').addClass('active');
         }
     });
 

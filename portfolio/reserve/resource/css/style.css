@@ -1,6 +1,7 @@
 /* 공통 */
 html, body {word-break:keep-all;}
 body {letter-spacing: -0.25px; background-color: #222222;}
+body.active {/* overflow: hidden; */}
 .color-976d3f {color:#976d3f;}
 .text-box .title {font-size:1.2rem; margin:2rem 0 1rem;}
 .con {max-width:1200px;}
@@ -180,7 +181,7 @@ body {scroll-behavior: smooth;}
 #footer .footer-section .bottom-text .buisnessman {font-size:0.9rem;}
 #footer .footer-section .bottom-text .buisnessman span:not(:last-child) {margin-right: 10px;}
 #footer .footer-section .bottom-text .copyright {font-size:0.7rem; margin-bottom: 0; padding-bottom: 1rem;}
-#footer .footer-section .footer-logo .starbucks-logo {
+#footer .footer-section .footer-logo .logo {
     background-image: url(https://cdn.jsdelivr.net/gh/kkt9102/img1/blog/article/portfolio/reserve/footer-logo.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -286,7 +287,13 @@ body {scroll-behavior: smooth;}
 }
 
 @media all and (max-width:450px) {
+    /* header */
+    #header .menu-box-1 ul {margin-left: 1.7rem;}
+    #header .menu-box-1 ul li a span {font-size: 1.8rem;}
 
+    /* footer */
+    #footer .footer-section .bottom-text .buisnessman span:not(:nth-child(1n + 3)) {display: block;}
+    #footer .footer-section .footer-logo {display: none;}
 }
 
 @media all and (max-width:425px) {
@@ -333,7 +340,7 @@ body {scroll-behavior: smooth;}
     #footer .footer-section .footer-menu-box-1 ul li span, #footer .footer-section .footer-menu-box-2 ul li span {font-size: 0.6rem; }
     #footer .footer-menu-box-1 ul {flex-wrap:wrap;}
     #footer .footer-menu-box-1 ul li {width: calc(100%/2);}
-    #footer .footer-section .footer-menu-box-1 ul li a {padding: 0.5rem;text-align: center;}
+    #footer .footer-section .footer-menu-box-1 ul li a {padding: 0.2rem;text-align: center;}
     #footer .footer-section .footer-menu-box-2 {width: 100%;}
     #footer .footer-section .footer-menu-box-2 ul {flex-wrap:wrap;}
     #footer .footer-section .footer-menu-box-2 ul li {width: 100%; text-align: center; margin:0.2rem 0;}
