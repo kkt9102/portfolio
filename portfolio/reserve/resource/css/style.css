@@ -7,6 +7,16 @@ body.active {/* overflow: hidden; */}
 .con {max-width:1200px;}
 .title img {width: auto; height:2.8rem; margin-top:5rem;}
 .popup-bg.active {position:fixed; top:0; left:0; width:100vw; height:100vh; background: rgba(0,0,0,0.6); z-index: 99 !important;}
+.logo-w {
+    background-image: url(https://cdn.jsdelivr.net/gh/kkt9102/img1/blog/article/portfolio/reserve/footer-logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:100px;
+    height:100px;
+    position: absolute;
+    right: 0;
+    bottom:0%;
+}
 
 /* scroll */
 /* html,body {scroll-behavior: smooth;} */
@@ -43,6 +53,8 @@ body {scroll-behavior: smooth;}
 #header .menu-box-1 ul li a {margin:0.7rem; padding:0.3rem;}
 #header .menu-box-1 ul li a span {font-size:2.2rem; color:#bbbbbb; position: relative; transition: color 0.3s;}
 #header .menu-box-1 ul li a:hover span {color:#976d3f;}
+#header .menu-logo {width: 100px;height: 100px;}
+#header .menu-logo .logo-w {position: relative;}
 /*font-outline == text-shadow: -1px 0 #976d3f, 0 1px #976d3f, 1px 0 #976d3f, 0 -1px #976d3f; */
 
 
@@ -181,16 +193,6 @@ body {scroll-behavior: smooth;}
 #footer .footer-section .bottom-text .buisnessman {font-size:0.9rem;}
 #footer .footer-section .bottom-text .buisnessman span:not(:last-child) {margin-right: 10px;}
 #footer .footer-section .bottom-text .copyright {font-size:0.7rem; margin-bottom: 0; padding-bottom: 1rem;}
-#footer .footer-section .footer-logo .logo {
-    background-image: url(https://cdn.jsdelivr.net/gh/kkt9102/img1/blog/article/portfolio/reserve/footer-logo.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    width:100px;
-    height:100px;
-    position: absolute;
-    right: 0;
-    bottom:0%;
-}
 
 
 /* media */
@@ -268,6 +270,14 @@ body {scroll-behavior: smooth;}
     #section-3 .section-3_con .extraction-list .popup-list li.active {width: 90vw; height: 90vh; left: 5vh; top: 5vh; z-index: 9999 !important;}
     #section-3 .section-3_con .extraction-list .popup-list .title_kor {font-size:2rem; font-weight: bold;}
     #section-3 .section-3_con .extraction-list .popup-list li .con .text {font-size:1.6rem; line-height: 2.5rem;}
+
+    /* footer */
+    #footer .footer-section .footer-menu-box-1 ul {flex-wrap: wrap;}
+    #footer .footer-section .footer-menu-box-1 ul li:nth-child(1n + 5) {margin-bottom: 0.5rem;}
+    #footer .footer-section .footer-menu-box-1 ul li a {padding:0.7rem 0;}
+    #footer .footer-section .footer-menu-box-2 {width:100%;}
+    #footer .footer-section .bottom-text .buisnessman span {display: inline-block;}
+    #footer .footer-section .footer-logo {display: none;}
 }
 
 @media all and (max-width:720px) {
@@ -288,12 +298,12 @@ body {scroll-behavior: smooth;}
 
 @media all and (max-width:450px) {
     /* header */
-    #header .menu-box-1 ul {margin-left: 1.7rem;}
-    #header .menu-box-1 ul li a span {font-size: 1.8rem;}
+    #header .menu-box-1 ul {margin-left: 1.7rem;margin-bottom: 1.7rem;}
+    #header .menu-box-1 ul li a span {font-size: 1.7rem;}
 
     /* footer */
     #footer .footer-section .bottom-text .buisnessman span:not(:nth-child(1n + 3)) {display: block;}
-    #footer .footer-section .footer-logo {display: none;}
+    
 }
 
 @media all and (max-width:425px) {
@@ -303,7 +313,7 @@ body {scroll-behavior: smooth;}
 
     /* section-1 */
     #section-1 .main-logo {top: 6rem; width:55%;}
-    #section-1 .section-1_con .main-text-box .title {margin-top:9rem; font-size:2rem;}
+    #section-1 .section-1_con .main-text-box .title {margin-top:9rem;font-size:2rem;font-weight: bold;}
     #section-1 .section-1_con .main-text-box .sub-title {margin-top: 2rem; font-size:1.2rem;}
     #section-1 .guide-arrow .btn {height: 5rem;}
     #section-1 .guide-arrow .btn img {width: 4rem;}
@@ -311,7 +321,7 @@ body {scroll-behavior: smooth;}
     /* section-2 */
     #section-2 .section-2_con .text-box .sub-title {font-size:1.2rem;}
     #section-2 .section-2_con .text-box .sub-text {padding: 0;}
-    #section-2 .section-2_con .text-box .sub-text p {font-size:0.8rem;}
+    #section-2 .section-2_con .text-box .sub-text p {font-size: 1rem;}
 
     /* section-3 */
     #section-3 .section-3_con .extraction-list ul li {height: 8rem;}
