@@ -1,0 +1,26 @@
+/* 공통 */
+
+/* side-quick-menu */
+.side-quick-menu {width: 4.3rem;right: 0;word-break:keep-all;}
+.side-quick-menu ul .title {background:rgba(97, 97, 97,0.5);padding:1rem 1rem;}
+.side-quick-menu ul li {font-size:0.8rem; font-weight:bold;}
+.side-quick-menu ul li:not(.title) {color:#ffffff; background:rgba(146, 33, 37,0.5); padding:1.1rem 0;}
+.side-quick-menu ul li:not(:last-child) {border-bottom:1px solid #ffffff;}
+.side-quick-menu ul li:last-child {border-radius:0 0 0 5px;}
+
+/* header */
+    /* top-link-box */
+#header .top-link-box {background:rgb(97, 97, 97);}
+#header .top-link-box .sns li a { width: 1.5rem; height: 1.5rem; background-repeat: no-repeat; background-size: contain;}
+#header .top-link-box .sns .facebook a {background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/seoularts_photo/facebook-icon.png);}
+#header .top-link-box .sns .instagram a {background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/seoularts_photo/instagram_icon.png);}
+#header .top-link-box .sns .blog a {background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/seoularts_photo/blog-icon.png);}
+#header .top-link-box .sns .youtube a {background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/seoularts_photo/youtube-icon.png);}
+
+    /* drop-menu-box */
+#header .drop-menu-box .logo a {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/seoularts_photo/logo_n.png) no-repeat 0 0;
+    width: 12rem;
+    height: 3rem;
+    background-size: contain;
+}
