@@ -1,7 +1,16 @@
+/* 폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400');
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
 /* 공통 */
+.con {max-width: 80%;}
 
 /* side-quick-menu */
-.side-quick-menu {width: 4.3rem;right: 0;word-break:keep-all;}
+.side-quick-menu {top: 6.9rem;width: 4.3rem;right: 0;word-break:keep-all;}
 .side-quick-menu ul .title {background:rgba(97, 97, 97,0.5);padding:1rem 1rem;}
 .side-quick-menu ul li {font-size:0.8rem; font-weight:bold;}
 .side-quick-menu ul li:not(.title) {color:#ffffff; background:rgba(146, 33, 37,0.5); padding:1.1rem 0;}
@@ -9,18 +18,42 @@
 .side-quick-menu ul li:last-child {border-radius:0 0 0 5px;}
 
 /* header */
+#header {border-bottom:1px solid rgba(97,97,97,1);}
     /* top-link-box */
 #header .top-link-box {background:rgb(97, 97, 97);}
+#header .top-link-box ul {margin: 0.5rem 0;}
+#header .top-link-box .sns {margin-left:10%;}
+#header .top-link-box .sns li {margin:0 0.3rem;}
 #header .top-link-box .sns li a { width: 1.5rem; height: 1.5rem; background-repeat: no-repeat; background-size: contain;}
 #header .top-link-box .sns .facebook a {background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/seoularts_photo/facebook-icon.png);}
 #header .top-link-box .sns .instagram a {background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/seoularts_photo/instagram_icon.png);}
 #header .top-link-box .sns .blog a {background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/seoularts_photo/blog-icon.png);}
 #header .top-link-box .sns .youtube a {background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/seoularts_photo/youtube-icon.png);}
-
+    /* login */
+#header .top-link-box .login {margin-right:10%;}
+#header .top-link-box .login li {margin:0 0.3rem;}
+#search_home .search {width:1rem;height:1rem;/* border:3px solid #ffffff; *//* border-radius:50%; */}
+#search_home .search * {display:none;}
+#search_home .search::after {content:"";position: absolute;width: 1rem;height: 1rem;border: 3px solid #ffffff;border-radius: 50%;}
     /* drop-menu-box */
+#header .drop-menu-box ul,
+#header .drop-menu-box .logo {margin:0.9rem 0;}
 #header .drop-menu-box .logo a {
     background: url(https://kkt9102.github.io/img1/blog/article/portfolio/seoularts_photo/logo_n.png) no-repeat 0 0;
     width: 12rem;
     height: 3rem;
     background-size: contain;
 }
+#header .drop-menu-box ul {width: calc(100% - 12rem); height: 3rem;}
+#header .drop-menu-box ul li {width:calc(100%/8);line-height: 3rem;}
+#header .drop-menu-box ul li a {font-size: 1.2rem;font-weight:bold;text-align: right;}
+#header .drop-menu-box ul .bars-btn {margin-top:0.5rem;}
+#header .drop-menu-box ul .bars-btn a {width: 2.5rem;height: 2rem;position: relative;margin-left: calc(100% - 2.5rem);}
+#header .drop-menu-box ul .bars-btn a div {position: absolute;right:0;height: 5px;background: #000000;}
+#header .drop-menu-box ul .bars-btn a div:first-child {top:0; width:90%; transition: top 0.3s;}
+#header .drop-menu-box ul .bars-btn a div:nth-child(2) {top:50%; width:80%;}
+#header .drop-menu-box ul .bars-btn a div:last-child {top:100%; width:100%; transition:transform 0.2s, top 0.3s;}
+#header .drop-menu-box ul .bars-btn:hover a div {top:50%;}
+#header .drop-menu-box ul .bars-btn:hover a div:first-child{width:100%; transition:width 0.3s 0.2s, top 0.3s;}
+#header .drop-menu-box ul .bars-btn:hover a div:nth-child(2) {}
+#header .drop-menu-box ul .bars-btn:hover a div:last-child {transform: rotate(90deg); transition:transform 0.3s 0.2s, top 0.3s;}
