@@ -50,6 +50,10 @@ body {
 #header .drop-menu-box ul {width: calc(100% - 12rem); height: 3rem;}
 #header .drop-menu-box ul li {width:calc(100%/8);line-height: 3rem;}
 #header .drop-menu-box ul li a {font-size: 1.2rem; font-weight:bold; text-align: right;}
+#header .drop-menu-box ul li ul {position: absolute; width: 100%;}
+#header .drop-menu-box ul li .drop-down-menu li {border:1px solid red; line-height: normal;}
+#header .drop-menu-box ul li .drop-down-menu ul li a {font-size: 0.9rem; line-height: 0.9rem;}
+    /* bars-btn */
 #header .drop-menu-box ul .bars-btn {width:2.5rem; margin-top:0.5rem; margin-left: 8rem;}
 #header .drop-menu-box ul .bars-btn a {width: 2.5rem;height: 2rem; position: relative;}
 #header .drop-menu-box ul .bars-btn a div {position: absolute; right:0; height: 5px; background: #000000;}
